@@ -1,0 +1,136 @@
+body{
+    background-color: black;
+    color: #a0a0a0;
+    font-family: 'Bebas Neue', sans-serif;
+}
+hr{
+    border: 4px solid;
+}
+.carousel-inner{
+    max-height: 50rem;
+}
+.span{
+    color: gold;
+    font-size: 40px;
+}
+.section{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-size: 40px;
+}
+.h1{
+    font-size: 40px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+a{
+    position: relative;
+    text-decoration: none;
+    color: #a0a0a0;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+a:after{
+    content: "";
+    position: absolute;
+    background-color: gold;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+a:hover:after{
+    width: 100%;
+}
+a:hover{
+    color: #ffffff;
+}
+.header{
+    text-align: center;
+    font-size: 30px;
+    background-color: gold;
+    color: black;
+    font-family: 'Tilt Prism', cursive;
+}
+.carousel{
+    border: 2px #a0a0a0 solid;
+}
+.imagen{
+    width: 500px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border: 2px #a0a0a0 solid;
+}
+.aaaa{
+    display: flex;
+}
+.diva{
+    font-size: 20px;
+}
+.h2coc{
+    color: gold;
+}
+.h3{
+    color: gold;
+}
+.pan{
+    color: white;
+    font-size: 4rem;
+    display: inline-block;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.pan:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    background-color: gold;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.6s ease-out;
+}
+.pan:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.imgdiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sa{
+    margin: 40px;
+    border: 2px #a0a0a0 solid; 
+}
+.h3b{
+    text-align: center;
+}
+.h3a{
+    font-size: 40px;
+}
+.h3c{
+    color: gold;
+}
+.footer{
+    text-align: center;
+    font-size: 30px;
+    background-color: gold;
+    color: black;
+    font-family: 'Tilt Prism', cursive;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+}
