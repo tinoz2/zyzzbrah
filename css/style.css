@@ -134,3 +134,250 @@ a:hover{
     width: 100%;
     height: 5%;
 }
+.pana{
+    color: white;
+    font-size: 4rem;
+    display: inline-block;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    padding: 20px;
+}
+.pana:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    background-color: gold;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.6s ease-out;
+}
+.pana:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.parrafo{
+    text-align: center;
+    font-size: 30px;
+    margin: 30px;
+}
+.hpp{
+    text-align: center;
+    margin: 30px;
+    font-size: 40px;
+    color: #ffffff;
+}
+.hppp{
+    color: gold;
+}
+.asdd{
+    display: flex;
+}
+.imgblended{
+    width: 25%;
+    border: #ffffff 2px solid;
+}
+.h3blended{
+    margin: 30px;
+    color: gold;
+}
+.pblended{
+    font-size: 25px;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+    color: #a0a0a0;
+}
+.divpapa{
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;
+    color: white;
+}
+.spana{
+    color: gold;
+}
+.habanoo{
+    text-align: center;
+    border: 4px gold solid;
+    font-size: 60px;
+    color: #ffffff;
+    margin: 60px;
+}
+.calidad{
+    margin-top: 60px;
+    margin-left: 50px;
+    color: #ffffff;
+    font-size: 50px;
+}
+.parrafo2{
+    margin-left: 50px;
+    margin-top: 30px;
+    color: #a0a0a0;
+    font-size: 30px;
+}
+.cigarro{
+    text-align: end;
+    margin-left: 60px;
+    margin-right: 50px;
+    margin-top: 60px;
+    color: #ffffff;
+    font-size: 50px;
+}
+.parrafo3{
+    text-align: end;
+    color: #a0a0a0;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+.final{
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    margin: 50px;
+}
+.imghabano{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parrafo4{
+    text-align: center;
+    margin: 50px;
+    color: #a0a0a0;
+    font-size: 30px;
+}
+.asd1{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.asd2{
+    border: 2px white solid;
+    width: 35%;
+}
+.asd3{
+    margin: 30px;
+    font-size: 40px;
+    color: #ffffff;
+}
+.paris{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.paris2{
+    width: 40%;
+}
+.whiskybb{
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+    margin: 30px;
+}
+.blacklabel{
+    display: flex;
+    justify-content:center ;
+    margin: 40px;
+}
+.parrafoblack{
+    text-align: center;
+    font-size: 30px;
+    margin-right: 20px;
+    margin-right: 20px;
+}
+.aaa{
+    font-size: 40px;
+    color: gold;
+    margin: 40px;
+}
+.nnn{
+    width: 30%;
+}
+.nacional{
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    margin: 30px;
+}
+.apa{
+    display: flex;
+    justify-content: center;
+}
+.apa2{
+    border: 2px #ffffff solid;
+    width: 40%;
+}
+.parrafo0{
+    text-align: center;
+    font-size: 30px;
+    margin: 30px;
+}
+.cas{
+    text-align: center;
+    font-size: 40px;
+    color: lightblue;
+    list-style: none;
+}
+.spanb{
+    color: crimson;
+}
+.spanc{
+    color: peru;
+}
+.vinoimg{
+    width: 50%;
+    margin: 30px;
+    border: 2px #ffffff solid;
+}
+.sssd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.elproceso{
+    text-align: end;
+    font-size: 50px;
+    color: #ffffff;
+    margin: 20px;
+}
+.vinoparrafo{
+    text-align: end;
+    margin: 20px;
+    font-size: 30px;
+}
+.temperatura{
+    text-align: left;
+    font-size: 50px;
+    color: #ffffff;
+    margin: 20px;
+}
+.ptemperatura{
+    text-align: left;
+    margin: 20px;
+    font-size: 30px;
+}
+.parrafito{
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+}
+.span1{
+    color: #ffffff;
+}
+.vino3{
+    width: 100%;
+    margin: 30px;
+    border: 2px white solid;
+}
+.vino4{
+    width: 95%;
+    margin: 30px;
+    border: 2px white solid;
+}
