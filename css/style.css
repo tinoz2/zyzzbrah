@@ -381,3 +381,66 @@ a:hover{
     margin: 30px;
     border: 2px white solid;
 }
+.aa{
+    margin: 50px;
+}
+.caro{
+    color: #ffffff;
+    font-size: 40px;
+    margin: 20px;
+}
+.ds{
+    display: flex;
+    margin: 20px;
+}
+.imgw{
+    width: 25%;
+}
+.parraf{
+    text-align: right;
+    font-size: 30px;
+    margin: 30px;
+}
+.parra{
+    text-align: left;
+    font-size: 30px;
+    margin: 30px;
+}
+.caro2{
+    color: #ffffff;
+    font-size: 40px;
+    margin: 20px;
+    text-align: end;
+}
+.pai{
+    text-align: center;
+    color: #ffffff;
+    font-size: 40px;
+    margin: 20px;
+}
+.flexx{
+    display: flex;
+    align-items: center;
+}
+.borde{
+    border: 2px #ffffff solid;
+}
+.bbe{
+    width: 25%;
+    margin: 20px;
+}
+.imgblue{
+    width: 40%;
+}
+.aasdd{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    gap: 10px;
+}
+.pasto{
+    color: #ffffff;
+    margin: 20px;
+    font-size: 40px;
+    text-align: center;
+}
