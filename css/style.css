@@ -444,3 +444,29 @@ a:hover{
     font-size: 40px;
     text-align: center;
 }
+@media (max-width: 576px){
+    .media{
+        font-size: 20px;
+        text-align: left;
+    }
+}
+@media (max-width: 576px){
+    .media{
+        font-size: 20px;
+    }
+}
+@media (max-width: 576px){
+    .media2{
+        width: 35%;
+    }
+}
+@media (max-width: 576px){
+    .mediaimg{
+        width: 85%;
+    }
+}
+@media (max-width: 576px){
+    .media9{
+        text-align: center;
+    }
+}
