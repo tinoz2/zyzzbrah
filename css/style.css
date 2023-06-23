@@ -21,6 +21,7 @@ hr{
 }
 .h1{
     font-size: 40px;
+    margin-top: 40px;
 }
 nav{
     display: flex;
@@ -332,11 +333,11 @@ a:hover{
     color: peru;
 }
 .vinoimg{
-    width: 50%;
+    width: 35%;
     margin: 30px;
     border: 2px #ffffff solid;
 }
-.sssd{
+.vinito{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -468,5 +469,20 @@ a:hover{
 @media (max-width: 576px){
     .media9{
         text-align: center;
+    }
+}
+@media (max-width: 576px){
+    .media5{
+        width: 70%;
+    }
+}
+@media (max-width: 576px){
+    .media6{
+        width: 35%;
+    }
+}
+@media (max-width: 576px){
+    .media11{
+        width: 40%;
     }
 }
