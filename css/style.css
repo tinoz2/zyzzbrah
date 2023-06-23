@@ -486,3 +486,8 @@ a:hover{
         width: 40%;
     }
 }
+@media (max-width: 576px){
+    .media55{
+        width: 60%;
+    }
+}
