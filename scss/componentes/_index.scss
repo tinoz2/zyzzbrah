@@ -1,0 +1,345 @@
+body{
+    background-color: black;
+    color: #a0a0a0;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.carousel-inner{
+    max-height: 50rem;
+}
+.section{
+    text-align: center;
+    @include mp (10px, 10px);
+    font-size: nth($fz , 2);
+}
+.h1{
+    font-size: nth($fz , 2);
+    margin-top: 40px;
+}
+.carousel{
+    @extend %border;
+}
+.imagen{
+    @include wit (500px);
+    margin-right: 20px;
+    margin-left: 20px;
+    @extend %border;
+}
+.aaaa, .asdd{
+    display: flex;
+}
+.diva{
+    font-size: nth($fz , 5);
+}
+.h3, .h2coc, .h3c, .hppp, .spana{
+    color: nth($clr, 1);
+}
+.parrafo{
+    font-size: nth($fz, 3);
+    @include txt (center);
+    @extend %mar;
+}
+.hpp{
+    @include txt (center);
+    font-size: nth($fz, 2);
+    @extend %mar;
+    color: nth($clr, 2);
+}
+.imgblended{
+    @include wit (25%);
+    @extend %border;
+}
+.h3blended{
+    @extend %mar;
+    color: nth($clr, 1);
+}
+.pblended{
+    @include txt (center);
+    font-size: nth($fz, 4);
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.divpapa{
+    @include txt (center);
+    font-size: nth($fz, 2);
+    @extend %mar2;
+    color: nth($clr, 2);
+}
+.sa{
+    margin: 40px;
+    @extend %border;
+}
+.imgdiv{
+    @include flex (flex, space-around, center);
+}
+.h3b{
+    @include txt (center);
+}
+.habanoo{
+    @include txt (center);
+    border: 4px gold solid;
+    font-size: 60px;
+    color: nth($clr, 2);
+    margin: 60px;
+}
+.calidad{
+    margin-top: 60px;
+    margin-left: 50px;
+    color: nth($clr, 2);
+    font-size: nth($fz, 1);
+}
+.parrafo2{
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: nth($fz , 3);
+}
+.cigarro{
+    @include txt (end);
+    margin-left: 60px;
+    margin-right: 50px;
+    margin-top: 60px;
+    color: nth($clr, 2);
+    font-size: nth($fz , 1);
+}
+.parrafo3{
+    @include txt (end);
+    font-size: nth($fz , 3);
+    margin-top: 30px;
+    margin-right: 50px;
+}
+.final{
+    @include txt (center);
+    color: nth($clr, 2);
+    font-size: nth($fz, 1);
+    margin: 50px;
+}
+.imghabano{
+    @extend %dflex;
+}
+.parrafo4{
+    @include txt (center);
+    margin: 50px;
+    font-size: nth($fz, 3);
+}
+.asd1{
+    @extend %dflex;
+    @extend %mar;
+}
+.asd2{
+    @extend %border;
+    @include wit (35%);
+}
+.asd3{
+    @extend %mar;
+    font-size: nth($fz, 2);
+    color: nth($clr , 2);
+}
+.paris{
+    @extend %dflex;
+}
+.paris2{
+    @include wit (40%);
+}
+.whiskybb{
+    color: nth($clr, 2);
+    @include txt (center);
+    font-size: nth($fz, 1);
+    @extend %mar;
+}
+.blacklabel{
+    @extend %dflex;
+    margin: 40px;
+}
+.parrafoblack{
+    @include txt (center);
+    font-size: nth($fz, 3);
+    margin-right: 20px;
+}
+.aaa{
+    font-size: nth($fz, 2);
+    color: nth($clr, 1);
+    margin: 40px;
+}
+.nnn{
+    @include wit (30%);
+}
+.nacional{
+    @include txt (center);
+    color: nth($clr, 2);
+    font-size: nth($fz, 1);
+    @extend %mar;
+}
+.apa{
+    @extend %dflex;
+}
+.apa2{
+    @extend %border;
+    @include wit (40%);
+}
+.parrafo0{
+    @include txt (center);
+    font-size: nth($fz, 3);
+    @extend %mar;
+}
+.cas{
+    @include txt (center);
+    font-size: nth($fz, 2);
+    color: lightblue;
+    list-style: none;
+}
+.spanb{
+    color: nth($clr, 3);
+}
+.spanc{
+    color: nth($clr, 4);
+}
+.vinoimg{
+    @include wit (35%);
+    @extend %border;
+    @extend %mar;
+}
+.vinito{
+    @extend %dflex;
+}
+.elproceso{
+    @include txt (end);
+    font-size: nth($fz, 1);
+    color: nth($clr, 2);
+    @extend %mar2;
+}
+.vinoparrafo{
+    @include txt (end);
+    @extend %mar2;
+    font-size: nth($fz, 3);
+}
+.temperatura{
+    @include txt (left);
+    font-size: nth($fz, 1);
+    color: nth($clr, 2);
+    @extend %mar2;
+}
+.ptemperatura{
+    @include txt (left);
+    @extend %mar2;
+    font-size: nth($fz, 3);
+}
+.parrafito{
+    font-size: nth($fz, 3);
+    @include txt (center);
+    @extend %mar2;
+}
+.span1{
+    color: nth($clr, 2);
+}
+.vino3, .vino4{
+    @include wit (30%);
+    @extend %mar;
+    @extend %border;
+}
+.aa{
+    margin: 50px;
+}
+.caro{
+    color: nth($clr, 2);
+    font-size: nth($fz, 2);
+    @extend %mar2;
+}
+.ds{
+    display: flex;
+    @extend %mar2;
+}
+.imgw{
+    @include wit (25%);
+}
+.parraf{
+    @include txt (right);
+    font-size: nth($fz, 3);
+    @extend %mar;
+}
+.parra{
+    @include txt (left);
+    font-size: nth($fz, 3);
+    @extend %mar;
+}
+.caro2{
+    color: nth($clr, 2);
+    font-size: nth($fz, 2);
+    @extend %mar2;
+    @include txt (end);
+}
+.pai{
+    @include txt (center);
+    color: nth($clr, 2);
+    font-size: nth($fz, 2);
+    @extend %mar2;
+}
+.flexx{
+    @extend %dflex;
+}
+.borde{
+    @extend %border;
+}
+.bbe{
+    @include wit (25%);
+    @extend %mar2;
+}
+.imgblue{
+    @include wit (40%);
+}
+.aasdd{
+    @extend %dflex;
+    margin-bottom: 50px;
+    gap: 10px;
+}
+.pasto{
+    color: nth($clr, 2);
+    @extend %mar2;
+    font-size: nth($fz, 2);
+    @include txt (center);
+}
+@media (max-width: 576px){
+    .media{
+        font-size: nth($fz, 5);
+        @include txt (left);
+    }
+}
+@media (max-width: 576px){
+    .media{
+        font-size: nth($fz, 5);
+    }
+}
+@media (max-width: 576px){
+    .media2{
+        @include wit (35%);
+    }
+}
+@media (max-width: 576px){
+    .mediaimg{
+        @include wit (85%);
+    }
+}
+@media (max-width: 576px){
+    .media9{
+        @include txt (center);
+    }
+}
+@media (max-width: 576px){
+    .media5{
+        @include wit (70%);
+    }
+}
+@media (max-width: 576px){
+    .media6{
+        @include wit (35%);
+    }
+}
+@media (max-width: 576px){
+    .media11{
+        @include wit (40%);
+    }
+}
+@media (max-width: 576px){
+    .media55{
+        @include wit (60%);
+    }
+}
+

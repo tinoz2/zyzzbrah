@@ -1,0 +1,57 @@
+.header{
+    text-align: center;
+    font-size: 30px;
+    background-color: gold;
+    color: black;
+    font-family: 'Tilt Prism', cursive;
+}
+.pan{
+    color: white;
+    font-size: 4rem;
+    display: inline-block;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.pan:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    background-color: gold;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.6s ease-out;
+}
+.pan:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.pana{
+    color: white;
+    font-size: 4rem;
+    display: inline-block;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    padding: 20px;
+}
+.pana:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    background-color: gold;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.6s ease-out;
+}
+.pana:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}

@@ -1,493 +1,475 @@
-body{
-    background-color: black;
-    color: #a0a0a0;
-    font-family: 'Bebas Neue', sans-serif;
+.aasdd, .flexx, .vinito, .apa, .blacklabel, .paris, .asd1, .imghabano {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-hr{
-    border: 4px solid;
+
+.borde, .vino3, .vino4, .vinoimg, .apa2, .asd2, .sa, .imgblended, .imagen, .carousel {
+  border: 2px white solid;
 }
-.carousel-inner{
-    max-height: 50rem;
+
+.parra, .parraf, .vino3, .vino4, .vinoimg, .parrafo0, .nacional, .whiskybb, .asd3, .asd1, .h3blended, .hpp, .parrafo {
+  margin: 30px;
 }
-.span{
-    color: gold;
-    font-size: 40px;
+
+.pasto, .bbe, .pai, .caro2, .ds, .caro, .parrafito, .ptemperatura, .temperatura, .vinoparrafo, .elproceso, .divpapa {
+  margin: 20px;
 }
-.section{
-    text-align: center;
-    margin: 10px;
-    padding: 10px;
-    font-size: 40px;
+
+.footer {
+  text-align: center;
+  font-size: 30px;
+  background-color: gold;
+  color: black;
+  font-family: "Tilt Prism", cursive;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5%;
 }
-.h1{
-    font-size: 40px;
-    margin-top: 40px;
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 15px;
 }
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-bottom: 15px;
+nav a {
+  position: relative;
+  text-decoration: none;
+  color: #a0a0a0;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  padding: 0 10px;
 }
-a{
-    position: relative;
-    text-decoration: none;
-    color: #a0a0a0;
+nav a:after {
+  content: "";
+  position: absolute;
+  background-color: gold;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+nav a:hover:after {
+  width: 100%;
+}
+nav a:hover {
+  color: white;
+}
+
+body {
+  background-color: black;
+  color: #a0a0a0;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.carousel-inner {
+  max-height: 50rem;
+}
+
+.section {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  font-size: 40px;
+}
+
+.h1 {
+  font-size: 40px;
+  margin-top: 40px;
+}
+
+.imagen {
+  width: 500px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.aaaa, .asdd {
+  display: flex;
+}
+
+.diva {
+  font-size: 20px;
+}
+
+.h3, .h2coc, .h3c, .hppp, .spana {
+  color: gold;
+}
+
+.parrafo {
+  font-size: 30px;
+  text-align: center;
+}
+
+.hpp {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+
+.imgblended {
+  width: 25%;
+}
+
+.h3blended {
+  color: gold;
+}
+
+.pblended {
+  text-align: center;
+  font-size: 25px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.divpapa {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+
+.sa {
+  margin: 40px;
+}
+
+.imgdiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.h3b {
+  text-align: center;
+}
+
+.habanoo {
+  text-align: center;
+  border: 4px gold solid;
+  font-size: 60px;
+  color: white;
+  margin: 60px;
+}
+
+.calidad {
+  margin-top: 60px;
+  margin-left: 50px;
+  color: white;
+  font-size: 50px;
+}
+
+.parrafo2 {
+  margin-left: 50px;
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+.cigarro {
+  text-align: end;
+  margin-left: 60px;
+  margin-right: 50px;
+  margin-top: 60px;
+  color: white;
+  font-size: 50px;
+}
+
+.parrafo3 {
+  text-align: end;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-right: 50px;
+}
+
+.final {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  margin: 50px;
+}
+
+.parrafo4 {
+  text-align: center;
+  margin: 50px;
+  font-size: 30px;
+}
+
+.asd2 {
+  width: 35%;
+}
+
+.asd3 {
+  font-size: 40px;
+  color: white;
+}
+
+.paris2 {
+  width: 40%;
+}
+
+.whiskybb {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+
+.blacklabel {
+  margin: 40px;
+}
+
+.parrafoblack {
+  text-align: center;
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+.aaa {
+  font-size: 40px;
+  color: gold;
+  margin: 40px;
+}
+
+.nnn {
+  width: 30%;
+}
+
+.nacional {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
+
+.apa2 {
+  width: 40%;
+}
+
+.parrafo0 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.cas {
+  text-align: center;
+  font-size: 40px;
+  color: lightblue;
+  list-style: none;
+}
+
+.spanb {
+  color: crimson;
+}
+
+.spanc {
+  color: peru;
+}
+
+.vinoimg {
+  width: 35%;
+}
+
+.elproceso {
+  text-align: end;
+  font-size: 50px;
+  color: white;
+}
+
+.vinoparrafo {
+  text-align: end;
+  font-size: 30px;
+}
+
+.temperatura {
+  text-align: left;
+  font-size: 50px;
+  color: white;
+}
+
+.ptemperatura {
+  text-align: left;
+  font-size: 30px;
+}
+
+.parrafito {
+  font-size: 30px;
+  text-align: center;
+}
+
+.span1 {
+  color: white;
+}
+
+.vino3, .vino4 {
+  width: 30%;
+}
+
+.aa {
+  margin: 50px;
+}
+
+.caro {
+  color: white;
+  font-size: 40px;
+}
+
+.ds {
+  display: flex;
+}
+
+.imgw {
+  width: 25%;
+}
+
+.parraf {
+  text-align: right;
+  font-size: 30px;
+}
+
+.parra {
+  text-align: left;
+  font-size: 30px;
+}
+
+.caro2 {
+  color: white;
+  font-size: 40px;
+  text-align: end;
+}
+
+.pai {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+
+.bbe {
+  width: 25%;
+}
+
+.imgblue {
+  width: 40%;
+}
+
+.aasdd {
+  margin-bottom: 50px;
+  gap: 10px;
+}
+
+.pasto {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  .media {
     font-size: 20px;
-    letter-spacing: 0.5px;
-    padding: 0 10px;
+    text-align: left;
+  }
 }
-a:after{
-    content: "";
-    position: absolute;
-    background-color: gold;
-    height: 3px;
-    width: 0;
-    left: 0;
-    bottom: -10px;
-    transition: 0.3s;
-}
-a:hover:after{
-    width: 100%;
-}
-a:hover{
-    color: #ffffff;
-}
-.header{
-    text-align: center;
-    font-size: 30px;
-    background-color: gold;
-    color: black;
-    font-family: 'Tilt Prism', cursive;
-}
-.carousel{
-    border: 2px #a0a0a0 solid;
-}
-.imagen{
-    width: 500px;
-    margin-right: 20px;
-    margin-left: 20px;
-    border: 2px #a0a0a0 solid;
-}
-.aaaa{
-    display: flex;
-}
-.diva{
+@media (max-width: 576px) {
+  .media {
     font-size: 20px;
+  }
 }
-.h2coc{
-    color: gold;
-}
-.h3{
-    color: gold;
-}
-.pan{
-    color: white;
-    font-size: 4rem;
-    display: inline-block;
-    position: relative;
-    display: flex;
-    justify-content: center;
-}
-.pan:after{
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 4px;
-    bottom: 0;
-    left: 0;
-    background-color: gold;
-    transform: scaleX(0);
-    transform-origin: bottom right;
-    transition: transform 0.6s ease-out;
-}
-.pan:hover:after{
-    transform: scaleX(1);
-    transform-origin: bottom left;
-}
-.imgdiv{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.sa{
-    margin: 40px;
-    border: 2px #a0a0a0 solid; 
-}
-.h3b{
-    text-align: center;
-}
-.h3a{
-    font-size: 40px;
-}
-.h3c{
-    color: gold;
-}
-.footer{
-    text-align: center;
-    font-size: 30px;
-    background-color: gold;
-    color: black;
-    font-family: 'Tilt Prism', cursive;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 5%;
-}
-.pana{
-    color: white;
-    font-size: 4rem;
-    display: inline-block;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    margin: 40px;
-    padding: 20px;
-}
-.pana:after{
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 4px;
-    bottom: 0;
-    left: 0;
-    background-color: gold;
-    transform: scaleX(0);
-    transform-origin: bottom right;
-    transition: transform 0.6s ease-out;
-}
-.pana:hover:after{
-    transform: scaleX(1);
-    transform-origin: bottom left;
-}
-.parrafo{
-    text-align: center;
-    font-size: 30px;
-    margin: 30px;
-}
-.hpp{
-    text-align: center;
-    margin: 30px;
-    font-size: 40px;
-    color: #ffffff;
-}
-.hppp{
-    color: gold;
-}
-.asdd{
-    display: flex;
-}
-.imgblended{
-    width: 25%;
-    border: #ffffff 2px solid;
-}
-.h3blended{
-    margin: 30px;
-    color: gold;
-}
-.pblended{
-    font-size: 25px;
-    margin-right: 20px;
-    margin-left: 20px;
-    text-align: center;
-    color: #a0a0a0;
-}
-.divpapa{
-    text-align: center;
-    font-size: 40px;
-    margin: 20px;
-    color: white;
-}
-.spana{
-    color: gold;
-}
-.habanoo{
-    text-align: center;
-    border: 4px gold solid;
-    font-size: 60px;
-    color: #ffffff;
-    margin: 60px;
-}
-.calidad{
-    margin-top: 60px;
-    margin-left: 50px;
-    color: #ffffff;
-    font-size: 50px;
-}
-.parrafo2{
-    margin-left: 50px;
-    margin-top: 30px;
-    color: #a0a0a0;
-    font-size: 30px;
-}
-.cigarro{
-    text-align: end;
-    margin-left: 60px;
-    margin-right: 50px;
-    margin-top: 60px;
-    color: #ffffff;
-    font-size: 50px;
-}
-.parrafo3{
-    text-align: end;
-    color: #a0a0a0;
-    font-size: 30px;
-    margin-top: 30px;
-    margin-right: 50px;
-}
-.final{
-    text-align: center;
-    color: #ffffff;
-    font-size: 50px;
-    margin: 50px;
-}
-.imghabano{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.parrafo4{
-    text-align: center;
-    margin: 50px;
-    color: #a0a0a0;
-    font-size: 30px;
-}
-.asd1{
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    margin: 30px;
-}
-.asd2{
-    border: 2px white solid;
+@media (max-width: 576px) {
+  .media2 {
     width: 35%;
+  }
 }
-.asd3{
-    margin: 30px;
-    font-size: 40px;
-    color: #ffffff;
+@media (max-width: 576px) {
+  .mediaimg {
+    width: 85%;
+  }
 }
-.paris{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.paris2{
-    width: 40%;
-}
-.whiskybb{
-    color: #ffffff;
+@media (max-width: 576px) {
+  .media9 {
     text-align: center;
-    font-size: 50px;
-    margin: 30px;
+  }
 }
-.blacklabel{
-    display: flex;
-    justify-content:center ;
-    margin: 40px;
+@media (max-width: 576px) {
+  .media5 {
+    width: 70%;
+  }
 }
-.parrafoblack{
-    text-align: center;
-    font-size: 30px;
-    margin-right: 20px;
-    margin-right: 20px;
-}
-.aaa{
-    font-size: 40px;
-    color: gold;
-    margin: 40px;
-}
-.nnn{
-    width: 30%;
-}
-.nacional{
-    text-align: center;
-    color: #ffffff;
-    font-size: 50px;
-    margin: 30px;
-}
-.apa{
-    display: flex;
-    justify-content: center;
-}
-.apa2{
-    border: 2px #ffffff solid;
-    width: 40%;
-}
-.parrafo0{
-    text-align: center;
-    font-size: 30px;
-    margin: 30px;
-}
-.cas{
-    text-align: center;
-    font-size: 40px;
-    color: lightblue;
-    list-style: none;
-}
-.spanb{
-    color: crimson;
-}
-.spanc{
-    color: peru;
-}
-.vinoimg{
+@media (max-width: 576px) {
+  .media6 {
     width: 35%;
-    margin: 30px;
-    border: 2px #ffffff solid;
+  }
 }
-.vinito{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.elproceso{
-    text-align: end;
-    font-size: 50px;
-    color: #ffffff;
-    margin: 20px;
-}
-.vinoparrafo{
-    text-align: end;
-    margin: 20px;
-    font-size: 30px;
-}
-.temperatura{
-    text-align: left;
-    font-size: 50px;
-    color: #ffffff;
-    margin: 20px;
-}
-.ptemperatura{
-    text-align: left;
-    margin: 20px;
-    font-size: 30px;
-}
-.parrafito{
-    font-size: 30px;
-    text-align: center;
-    margin: 20px;
-}
-.span1{
-    color: #ffffff;
-}
-.vino3{
-    width: 30%;
-    margin: 30px;
-    border: 2px white solid;
-}
-.vino4{
-    width: 30%;
-    margin: 30px;
-    border: 2px white solid;
-}
-.aa{
-    margin: 50px;
-}
-.caro{
-    color: #ffffff;
-    font-size: 40px;
-    margin: 20px;
-}
-.ds{
-    display: flex;
-    margin: 20px;
-}
-.imgw{
-    width: 25%;
-}
-.parraf{
-    text-align: right;
-    font-size: 30px;
-    margin: 30px;
-}
-.parra{
-    text-align: left;
-    font-size: 30px;
-    margin: 30px;
-}
-.caro2{
-    color: #ffffff;
-    font-size: 40px;
-    margin: 20px;
-    text-align: end;
-}
-.pai{
-    text-align: center;
-    color: #ffffff;
-    font-size: 40px;
-    margin: 20px;
-}
-.flexx{
-    display: flex;
-    align-items: center;
-}
-.borde{
-    border: 2px #ffffff solid;
-}
-.bbe{
-    width: 25%;
-    margin: 20px;
-}
-.imgblue{
+@media (max-width: 576px) {
+  .media11 {
     width: 40%;
+  }
 }
-.aasdd{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-    gap: 10px;
+@media (max-width: 576px) {
+  .media55 {
+    width: 60%;
+  }
 }
-.pasto{
-    color: #ffffff;
-    margin: 20px;
-    font-size: 40px;
-    text-align: center;
+.header {
+  text-align: center;
+  font-size: 30px;
+  background-color: gold;
+  color: black;
+  font-family: "Tilt Prism", cursive;
 }
-@media (max-width: 576px){
-    .media{
-        font-size: 20px;
-        text-align: left;
-    }
+
+.pan {
+  color: white;
+  font-size: 4rem;
+  display: inline-block;
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
-@media (max-width: 576px){
-    .media{
-        font-size: 20px;
-    }
+
+.pan:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  background-color: gold;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.6s ease-out;
 }
-@media (max-width: 576px){
-    .media2{
-        width: 35%;
-    }
+
+.pan:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
-@media (max-width: 576px){
-    .mediaimg{
-        width: 85%;
-    }
+
+.pana {
+  color: white;
+  font-size: 4rem;
+  display: inline-block;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+  padding: 20px;
 }
-@media (max-width: 576px){
-    .media9{
-        text-align: center;
-    }
+
+.pana:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  background-color: gold;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.6s ease-out;
 }
-@media (max-width: 576px){
-    .media5{
-        width: 70%;
-    }
+
+.pana:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
-@media (max-width: 576px){
-    .media6{
-        width: 35%;
-    }
-}
-@media (max-width: 576px){
-    .media11{
-        width: 40%;
-    }
-}
-@media (max-width: 576px){
-    .media55{
-        width: 60%;
-    }
-}
+
+/*# sourceMappingURL=style.css.map */
