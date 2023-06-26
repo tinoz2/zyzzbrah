@@ -340,6 +340,7 @@ body{
 @media (max-width: 576px){
     .media11{
         @include wit (40%);
+        object-fit: cover;
     }
 }
 @media (max-width: 576px){
