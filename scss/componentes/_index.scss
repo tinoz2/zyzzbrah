@@ -10,6 +10,7 @@ body{
     text-align: center;
     @include mp (10px, 10px);
     font-size: nth($fz , 2);
+    color: nth($clr, 2);
 }
 .h1{
     font-size: nth($fz , 2);
@@ -73,6 +74,10 @@ body{
 }
 .h3b{
     @include txt (center);
+}
+.h3a{
+    font-size: nth($fz, 2);
+    color: nth($clr, 2)
 }
 .habanoo{
     @include txt (center);
