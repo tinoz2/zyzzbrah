@@ -415,6 +415,20 @@ body {
     width: 60%;
   }
 }
+@media (max-width: 576px) {
+  .media20 {
+    width: 30%;
+    object-fit: cover;
+    height: 500px;
+  }
+}
+@media (max-width: 576px) {
+  .media90 {
+    width: 50%;
+    object-fit: cover;
+    height: 700px;
+  }
+}
 .header {
   text-align: center;
   font-size: 30px;

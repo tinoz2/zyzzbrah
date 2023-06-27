@@ -348,4 +348,17 @@ body{
         @include wit (60%);
     }
 }
-
+@media (max-width: 576px){
+    .media20{
+        @include wit (30%);
+        object-fit: cover;
+        height: 500px;
+    }
+}
+@media (max-width: 576px){
+    .media90{
+        @include wit (50%);
+        object-fit: cover;
+        height: 700px;
+    }
+}
