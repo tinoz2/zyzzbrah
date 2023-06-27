@@ -4,15 +4,15 @@
   align-items: center;
 }
 
-.borde, .vino3, .vino4, .vinoimg, .apa2, .asd2, .sa, .imgblended, .imagen, .carousel {
+.flexx .borde, .vinito .vinoimg, .apa .apa2, div .vino3, .asd1 .asd2, .asdd .imgblended, .aaaa .imagen, .carousel, .imgdiv .sa {
   border: 2px white solid;
 }
 
-.parra, .parraf, .vino3, .vino4, .vinoimg, .parrafo0, .nacional, .whiskybb, .asd3, .asd1, .h3blended, .hpp, .parrafo {
+.flexx .parrafo, .ds .parra, .ds .parraf, .vinito .vinoimg, div .vino3, div .parrafo0, div .hpp, div .parrafo, div .whiskybb, section .whiskybb, section .nacional, section .parrafo, .asd1 .asd3, .asd1, .asdd .h3blended {
   margin: 30px;
 }
 
-.pasto, .bbe, .pai, .caro2, .ds, .caro, .parrafito, .ptemperatura, .temperatura, .vinoparrafo, .elproceso, .divpapa {
+.pasto, .flexx .bbe, .pai, .ds, div .caro2, div .caro, div .parrafito, div .ptemperatura, div .temperatura, div .vinoparrafo, div .elproceso, .divpapa {
   margin: 20px;
 }
 
@@ -77,54 +77,74 @@ body {
   font-size: 40px;
   color: white;
 }
-
-.h1 {
+.section .h1 {
   font-size: 40px;
   margin-top: 40px;
 }
 
-.imagen {
+.imgdiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.imgdiv .sa {
+  margin: 40px;
+}
+
+.aaaa {
+  display: flex;
+}
+.aaaa .imagen {
   width: 500px;
   margin-right: 20px;
   margin-left: 20px;
 }
-
-.aaaa, .asdd {
-  display: flex;
+@media (max-width: 576px) {
+  .aaaa .media90 {
+    width: 50%;
+    object-fit: cover;
+    height: 700px;
+  }
 }
 
 .diva {
   font-size: 20px;
 }
-
-.h3, .h2coc, .h3c, .hppp, .spana {
+.diva .h2coc {
   color: gold;
 }
 
-.parrafo {
-  font-size: 30px;
-  text-align: center;
+.h3, .h3c, .hppp, .spana {
+  color: gold;
 }
 
-.hpp {
-  text-align: center;
-  font-size: 40px;
-  color: white;
+.asdd {
+  display: flex;
 }
-
-.imgblended {
+.asdd .imgblended {
   width: 25%;
 }
-
-.h3blended {
+.asdd .h3blended {
   color: gold;
 }
-
-.pblended {
+.asdd .pblended {
   text-align: center;
   font-size: 25px;
   margin-right: 20px;
   margin-left: 20px;
+}
+@media (max-width: 576px) {
+  .asdd .media {
+    font-size: 20px;
+    text-align: left;
+  }
+}
+@media (max-width: 576px) {
+  .asdd .media20 {
+    width: 30%;
+    object-fit: cover;
+    height: 500px;
+  }
 }
 
 .divpapa {
@@ -133,44 +153,12 @@ body {
   color: white;
 }
 
-.sa {
-  margin: 40px;
-}
-
-.imgdiv {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
 .h3b {
   text-align: center;
 }
-
-.h3a {
+.h3b .h3a {
   font-size: 40px;
   color: white;
-}
-
-.habanoo {
-  text-align: center;
-  border: 4px gold solid;
-  font-size: 60px;
-  color: white;
-  margin: 60px;
-}
-
-.calidad {
-  margin-top: 60px;
-  margin-left: 50px;
-  color: white;
-  font-size: 50px;
-}
-
-.parrafo2 {
-  margin-left: 50px;
-  margin-top: 30px;
-  font-size: 30px;
 }
 
 .cigarro {
@@ -182,53 +170,177 @@ body {
   font-size: 50px;
 }
 
-.parrafo3 {
+.asd1 .asd2 {
+  width: 35%;
+}
+.asd1 .asd3 {
+  font-size: 40px;
+  color: white;
+}
+
+.paris .paris2 {
+  width: 40%;
+}
+@media (max-width: 576px) {
+  .paris .mediaimg {
+    width: 85%;
+  }
+}
+
+section .parrafo {
+  font-size: 30px;
+  text-align: center;
+}
+section .habanoo {
+  text-align: center;
+  border: 4px gold solid;
+  font-size: 60px;
+  color: white;
+  margin: 60px;
+}
+section .nacional {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
+section .calidad {
+  margin-top: 60px;
+  margin-left: 50px;
+  color: white;
+  font-size: 50px;
+}
+section .whiskybb {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+@media (max-width: 576px) {
+  section .media {
+    font-size: 20px;
+    text-align: left;
+  }
+}
+
+div .whiskybb {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+div .parrafo2 {
+  margin-left: 50px;
+  margin-top: 30px;
+  font-size: 30px;
+}
+div .parrafo {
+  font-size: 30px;
+  text-align: center;
+}
+div .hpp {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+div .parrafo3 {
   text-align: end;
   font-size: 30px;
   margin-top: 30px;
   margin-right: 50px;
 }
-
-.final {
+div .parrafo0 {
+  text-align: center;
+  font-size: 30px;
+}
+div .cas {
+  text-align: center;
+  font-size: 40px;
+  color: lightblue;
+  list-style: none;
+}
+div .final {
   text-align: center;
   color: white;
   font-size: 50px;
   margin: 50px;
 }
-
-.parrafo4 {
+div .parrafo4 {
   text-align: center;
   margin: 50px;
   font-size: 30px;
 }
-
-.asd2 {
-  width: 35%;
-}
-
-.asd3 {
-  font-size: 40px;
-  color: white;
-}
-
-.paris2 {
-  width: 40%;
-}
-
-.whiskybb {
-  color: white;
-  text-align: center;
+div .elproceso {
+  text-align: end;
   font-size: 50px;
+  color: white;
+}
+div .vinoparrafo {
+  text-align: end;
+  font-size: 30px;
+}
+div .temperatura {
+  text-align: left;
+  font-size: 50px;
+  color: white;
+}
+div .ptemperatura {
+  text-align: left;
+  font-size: 30px;
+}
+div .parrafito {
+  font-size: 30px;
+  text-align: center;
+}
+div .vino3 {
+  width: 30%;
+}
+div .caro {
+  color: white;
+  font-size: 40px;
+}
+div .caro2 {
+  color: white;
+  font-size: 40px;
+  text-align: end;
+}
+@media (max-width: 576px) {
+  div .media {
+    font-size: 20px;
+    text-align: left;
+  }
+}
+@media (max-width: 576px) {
+  div .medi {
+    font-size: 20px;
+    text-align: right;
+  }
+}
+@media (max-width: 576px) {
+  div .mediaimg {
+    width: 85%;
+  }
 }
 
 .blacklabel {
   margin: 40px;
 }
-
-.parrafoblack {
+.blacklabel .parrafoblack {
   text-align: center;
   font-size: 30px;
   margin-right: 20px;
+}
+.blacklabel .nnn {
+  width: 30%;
+}
+@media (max-width: 576px) {
+  .blacklabel .media {
+    font-size: 20px;
+    text-align: left;
+  }
+}
+@media (max-width: 576px) {
+  .blacklabel .media11 {
+    width: 40%;
+    object-fit: cover;
+  }
 }
 
 .aaa {
@@ -237,30 +349,13 @@ body {
   margin: 40px;
 }
 
-.nnn {
-  width: 30%;
-}
-
-.nacional {
-  text-align: center;
-  color: white;
-  font-size: 50px;
-}
-
-.apa2 {
+.apa .apa2 {
   width: 40%;
 }
-
-.parrafo0 {
-  text-align: center;
-  font-size: 30px;
-}
-
-.cas {
-  text-align: center;
-  font-size: 40px;
-  color: lightblue;
-  list-style: none;
+@media (max-width: 576px) {
+  .apa .media5 {
+    width: 70%;
+  }
 }
 
 .spanb {
@@ -271,76 +366,53 @@ body {
   color: peru;
 }
 
-.vinoimg {
+.vinito .vinoimg {
   width: 35%;
 }
-
-.elproceso {
-  text-align: end;
-  font-size: 50px;
-  color: white;
-}
-
-.vinoparrafo {
-  text-align: end;
-  font-size: 30px;
-}
-
-.temperatura {
-  text-align: left;
-  font-size: 50px;
-  color: white;
-}
-
-.ptemperatura {
-  text-align: left;
-  font-size: 30px;
-}
-
-.parrafito {
-  font-size: 30px;
-  text-align: center;
+@media (max-width: 576px) {
+  .vinito .media5 {
+    width: 70%;
+  }
 }
 
 .span1 {
   color: white;
 }
 
-.vino3, .vino4 {
-  width: 30%;
-}
-
 .aa {
   margin: 50px;
-}
-
-.caro {
-  color: white;
-  font-size: 40px;
 }
 
 .ds {
   display: flex;
 }
-
-.imgw {
+.ds .imgw {
   width: 25%;
 }
-
-.parraf {
+.ds .parraf {
   text-align: right;
   font-size: 30px;
 }
-
-.parra {
+.ds .parra {
   text-align: left;
   font-size: 30px;
 }
-
-.caro2 {
-  color: white;
-  font-size: 40px;
-  text-align: end;
+@media (max-width: 576px) {
+  .ds .media {
+    font-size: 20px;
+    text-align: left;
+  }
+}
+@media (max-width: 576px) {
+  .ds .media6 {
+    width: 35%;
+  }
+}
+@media (max-width: 576px) {
+  .ds .media11 {
+    width: 40%;
+    object-fit: cover;
+  }
 }
 
 .pai {
@@ -349,17 +421,31 @@ body {
   font-size: 40px;
 }
 
-.bbe {
+.flexx .parrafo {
+  font-size: 30px;
+  text-align: center;
+}
+.flexx .bbe {
   width: 25%;
 }
-
-.imgblue {
-  width: 40%;
+@media (max-width: 576px) {
+  .flexx .media {
+    font-size: 20px;
+    text-align: left;
+  }
+}
+@media (max-width: 576px) {
+  .flexx .media6 {
+    width: 35%;
+  }
 }
 
 .aasdd {
   margin-bottom: 50px;
   gap: 10px;
+}
+.aasdd .imgblue {
+  width: 40%;
 }
 
 .pasto {
@@ -368,67 +454,6 @@ body {
   text-align: center;
 }
 
-@media (max-width: 576px) {
-  .media {
-    font-size: 20px;
-    text-align: left;
-  }
-}
-@media (max-width: 576px) {
-  .media {
-    font-size: 20px;
-  }
-}
-@media (max-width: 576px) {
-  .media2 {
-    width: 35%;
-  }
-}
-@media (max-width: 576px) {
-  .mediaimg {
-    width: 85%;
-  }
-}
-@media (max-width: 576px) {
-  .media9 {
-    text-align: center;
-  }
-}
-@media (max-width: 576px) {
-  .media5 {
-    width: 70%;
-  }
-}
-@media (max-width: 576px) {
-  .media6 {
-    width: 35%;
-  }
-}
-@media (max-width: 576px) {
-  .media11 {
-    width: 40%;
-    object-fit: cover;
-  }
-}
-@media (max-width: 576px) {
-  .media55 {
-    width: 60%;
-  }
-}
-@media (max-width: 576px) {
-  .media20 {
-    width: 30%;
-    object-fit: cover;
-    height: 500px;
-  }
-}
-@media (max-width: 576px) {
-  .media90 {
-    width: 50%;
-    object-fit: cover;
-    height: 700px;
-  }
-}
 .header {
   text-align: center;
   font-size: 30px;

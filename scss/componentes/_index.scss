@@ -11,53 +11,75 @@ body{
     @include mp (10px, 10px);
     font-size: nth($fz , 2);
     color: nth($clr, 2);
+    .h1{
+        font-size: nth($fz , 2);
+        margin-top: 40px;
+    }
 }
-.h1{
-    font-size: nth($fz , 2);
-    margin-top: 40px;
+.imgdiv{
+    @include flex (flex, space-around, center);
+    .sa{
+        margin: 40px;
+        @extend %border;
+    }
 }
 .carousel{
     @extend %border;
 }
-.imagen{
-    @include wit (500px);
-    margin-right: 20px;
-    margin-left: 20px;
-    @extend %border;
-}
-.aaaa, .asdd{
+.aaaa{
     display: flex;
+    .imagen{
+        @include wit (500px);
+        margin-right: 20px;
+        margin-left: 20px;
+        @extend %border;
+    }
+    @media (max-width: 576px){
+        .media90{
+            @include wit (50%);
+            object-fit: cover;
+            height: 700px;
+        }
+    }
 }
 .diva{
     font-size: nth($fz , 5);
+    .h2coc{
+        color: nth($clr, 1);
+    }
 }
-.h3, .h2coc, .h3c, .hppp, .spana{
+.h3, .h3c, .hppp, .spana{
     color: nth($clr, 1);
 }
-.parrafo{
-    font-size: nth($fz, 3);
-    @include txt (center);
-    @extend %mar;
-}
-.hpp{
-    @include txt (center);
-    font-size: nth($fz, 2);
-    @extend %mar;
-    color: nth($clr, 2);
-}
-.imgblended{
-    @include wit (25%);
-    @extend %border;
-}
-.h3blended{
-    @extend %mar;
-    color: nth($clr, 1);
-}
-.pblended{
-    @include txt (center);
-    font-size: nth($fz, 4);
-    margin-right: 20px;
-    margin-left: 20px;
+.asdd{
+    display: flex;
+    .imgblended{
+        @include wit (25%);
+        @extend %border;
+    }
+    .h3blended{
+        @extend %mar;
+        color: nth($clr, 1);
+    }
+    .pblended{
+        @include txt (center);
+        font-size: nth($fz, 4);
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    @media (max-width: 576px){
+        .media{
+            font-size: nth($fz, 5);
+            @include txt (left);
+        }
+    }
+    @media (max-width: 576px){
+        .media20{
+            @include wit (30%);
+            object-fit: cover;
+            height: 500px;
+        }
+    }
 }
 .divpapa{
     @include txt (center);
@@ -65,37 +87,12 @@ body{
     @extend %mar2;
     color: nth($clr, 2);
 }
-.sa{
-    margin: 40px;
-    @extend %border;
-}
-.imgdiv{
-    @include flex (flex, space-around, center);
-}
 .h3b{
     @include txt (center);
-}
-.h3a{
-    font-size: nth($fz, 2);
-    color: nth($clr, 2)
-}
-.habanoo{
-    @include txt (center);
-    border: 4px gold solid;
-    font-size: 60px;
-    color: nth($clr, 2);
-    margin: 60px;
-}
-.calidad{
-    margin-top: 60px;
-    margin-left: 50px;
-    color: nth($clr, 2);
-    font-size: nth($fz, 1);
-}
-.parrafo2{
-    margin-left: 50px;
-    margin-top: 30px;
-    font-size: nth($fz , 3);
+    .h3a{
+        font-size: nth($fz, 2);
+        color: nth($clr, 2)
+    }
 }
 .cigarro{
     @include txt (end);
@@ -105,91 +102,223 @@ body{
     color: nth($clr, 2);
     font-size: nth($fz , 1);
 }
-.parrafo3{
-    @include txt (end);
-    font-size: nth($fz , 3);
-    margin-top: 30px;
-    margin-right: 50px;
-}
-.final{
-    @include txt (center);
-    color: nth($clr, 2);
-    font-size: nth($fz, 1);
-    margin: 50px;
-}
 .imghabano{
     @extend %dflex;
-}
-.parrafo4{
-    @include txt (center);
-    margin: 50px;
-    font-size: nth($fz, 3);
 }
 .asd1{
     @extend %dflex;
     @extend %mar;
-}
-.asd2{
-    @extend %border;
-    @include wit (35%);
-}
-.asd3{
-    @extend %mar;
-    font-size: nth($fz, 2);
-    color: nth($clr , 2);
+    .asd2{
+        @extend %border;
+        @include wit (35%);
+    }
+    .asd3{
+        @extend %mar;
+        font-size: nth($fz, 2);
+        color: nth($clr , 2);
+    }
 }
 .paris{
     @extend %dflex;
+    .paris2{
+        @include wit (40%);
+    }
+    @media (max-width: 576px){
+        .mediaimg{
+            @include wit (85%);
+        }
+    }
 }
-.paris2{
-    @include wit (40%);
+section{
+    .parrafo{
+        font-size: nth($fz, 3);
+        @include txt (center);
+        @extend %mar;
+    }
+    .habanoo{
+        @include txt (center);
+        border: 4px gold solid;
+        font-size: 60px;
+        color: nth($clr, 2);
+        margin: 60px;
+    }
+    .nacional{
+        @include txt (center);
+        color: nth($clr, 2);
+        font-size: nth($fz, 1);
+        @extend %mar;
+    }
+    .calidad{
+        margin-top: 60px;
+        margin-left: 50px;
+        color: nth($clr, 2);
+        font-size: nth($fz, 1);
+    }
+    .whiskybb{
+        color: nth($clr, 2);
+        @include txt (center);
+        font-size: nth($fz, 1);
+        @extend %mar;
+    }
+    @media (max-width: 576px){
+        .media{
+            font-size: nth($fz, 5);
+            @include txt (left);
+        }
+    }
 }
-.whiskybb{
-    color: nth($clr, 2);
-    @include txt (center);
-    font-size: nth($fz, 1);
-    @extend %mar;
+div{
+    .whiskybb{
+        color: nth($clr, 2);
+        @include txt (center);
+        font-size: nth($fz, 1);
+        @extend %mar;
+    }
+    .parrafo2{
+        margin-left: 50px;
+        margin-top: 30px;
+        font-size: nth($fz , 3);
+    }
+    .parrafo{
+        font-size: nth($fz, 3);
+        @include txt (center);
+        @extend %mar;
+    }
+    .hpp{
+        @include txt (center);
+        font-size: nth($fz, 2);
+        @extend %mar;
+        color: nth($clr, 2);
+    }
+    .parrafo3{
+        @include txt (end);
+        font-size: nth($fz , 3);
+        margin-top: 30px;
+        margin-right: 50px;
+    }
+    .parrafo0{
+        @include txt (center);
+        font-size: nth($fz, 3);
+        @extend %mar;
+    }
+    .cas{
+        @include txt (center);
+        font-size: nth($fz, 2);
+        color: lightblue;
+        list-style: none;
+    }
+    .final{
+        @include txt (center);
+        color: nth($clr, 2);
+        font-size: nth($fz, 1);
+        margin: 50px;
+    }
+    .parrafo4{
+        @include txt (center);
+        margin: 50px;
+        font-size: nth($fz, 3);
+    }
+    .elproceso{
+        @include txt (end);
+        font-size: nth($fz, 1);
+        color: nth($clr, 2);
+        @extend %mar2;
+    }
+    .vinoparrafo{
+        @include txt (end);
+        @extend %mar2;
+        font-size: nth($fz, 3);
+    }
+    .temperatura{
+        @include txt (left);
+        font-size: nth($fz, 1);
+        color: nth($clr, 2);
+        @extend %mar2;
+    }
+    .ptemperatura{
+        @include txt (left);
+        @extend %mar2;
+        font-size: nth($fz, 3);
+    }
+    .parrafito{
+        font-size: nth($fz, 3);
+        @include txt (center);
+        @extend %mar2;
+    }
+    .vino3{
+        @include wit (30%);
+        @extend %mar;
+        @extend %border;
+    }
+    .caro{
+        color: nth($clr, 2);
+        font-size: nth($fz, 2);
+        @extend %mar2;
+    }
+    .caro2{
+        color: nth($clr, 2);
+        font-size: nth($fz, 2);
+        @extend %mar2;
+        @include txt (end);
+    }
+    @media (max-width: 576px){
+        .media{
+            font-size: nth($fz, 5);
+            @include txt (left);
+        }
+    }
+    @media (max-width: 576px){
+        .medi{
+            font-size: nth($fz, 5);
+            @include txt (right);
+        }
+    }
+    @media (max-width: 576px){
+        .mediaimg{
+            @include wit (85%);
+        }
+    }
 }
 .blacklabel{
     @extend %dflex;
     margin: 40px;
-}
-.parrafoblack{
-    @include txt (center);
-    font-size: nth($fz, 3);
-    margin-right: 20px;
+    .parrafoblack{
+        @include txt (center);
+        font-size: nth($fz, 3);
+        margin-right: 20px;
+    }
+    .nnn{
+        @include wit (30%);
+    }
+    @media (max-width: 576px){
+        .media{
+            font-size: nth($fz, 5);
+            @include txt (left);
+        }
+    }
+    @media (max-width: 576px){
+        .media11{
+            @include wit (40%);
+            object-fit: cover;
+        }
+    }
 }
 .aaa{
     font-size: nth($fz, 2);
     color: nth($clr, 1);
     margin: 40px;
 }
-.nnn{
-    @include wit (30%);
-}
-.nacional{
-    @include txt (center);
-    color: nth($clr, 2);
-    font-size: nth($fz, 1);
-    @extend %mar;
-}
 .apa{
     @extend %dflex;
-}
-.apa2{
-    @extend %border;
-    @include wit (40%);
-}
-.parrafo0{
-    @include txt (center);
-    font-size: nth($fz, 3);
-    @extend %mar;
-}
-.cas{
-    @include txt (center);
-    font-size: nth($fz, 2);
-    color: lightblue;
-    list-style: none;
+    .apa2{
+        @extend %border;
+        @include wit (40%);
+    }
+    @media (max-width: 576px){
+        .media5{
+            @include wit (70%);
+        }
+    }
 }
 .spanb{
     color: nth($clr, 3);
@@ -197,79 +326,58 @@ body{
 .spanc{
     color: nth($clr, 4);
 }
-.vinoimg{
-    @include wit (35%);
-    @extend %border;
-    @extend %mar;
-}
 .vinito{
     @extend %dflex;
-}
-.elproceso{
-    @include txt (end);
-    font-size: nth($fz, 1);
-    color: nth($clr, 2);
-    @extend %mar2;
-}
-.vinoparrafo{
-    @include txt (end);
-    @extend %mar2;
-    font-size: nth($fz, 3);
-}
-.temperatura{
-    @include txt (left);
-    font-size: nth($fz, 1);
-    color: nth($clr, 2);
-    @extend %mar2;
-}
-.ptemperatura{
-    @include txt (left);
-    @extend %mar2;
-    font-size: nth($fz, 3);
-}
-.parrafito{
-    font-size: nth($fz, 3);
-    @include txt (center);
-    @extend %mar2;
+    .vinoimg{
+        @include wit (35%);
+        @extend %border;
+        @extend %mar;
+    }
+    @media (max-width: 576px){
+        .media5{
+            @include wit (70%);
+        }
+    }
 }
 .span1{
     color: nth($clr, 2);
 }
-.vino3, .vino4{
-    @include wit (30%);
-    @extend %mar;
-    @extend %border;
-}
 .aa{
     margin: 50px;
-}
-.caro{
-    color: nth($clr, 2);
-    font-size: nth($fz, 2);
-    @extend %mar2;
 }
 .ds{
     display: flex;
     @extend %mar2;
-}
-.imgw{
-    @include wit (25%);
-}
-.parraf{
-    @include txt (right);
-    font-size: nth($fz, 3);
-    @extend %mar;
-}
-.parra{
-    @include txt (left);
-    font-size: nth($fz, 3);
-    @extend %mar;
-}
-.caro2{
-    color: nth($clr, 2);
-    font-size: nth($fz, 2);
-    @extend %mar2;
-    @include txt (end);
+    .imgw{
+        @include wit (25%);
+    }
+    .parraf{
+        @include txt (right);
+        font-size: nth($fz, 3);
+        @extend %mar;
+    }
+    .parra{
+        @include txt (left);
+        font-size: nth($fz, 3);
+        @extend %mar;
+    }
+    @media (max-width: 576px){
+        .media{
+            font-size: nth($fz, 5);
+            @include txt (left);
+        }
+    }
+    @media (max-width: 576px){
+        .media6{
+            @include wit (35%);
+        }
+    }
+    @media (max-width: 576px){
+        .media11{
+            @include wit (40%);
+            object-fit: cover;
+        }
+    }
 }
 .pai{
     @include txt (center);
@@ -279,86 +387,41 @@ body{
 }
 .flexx{
     @extend %dflex;
-}
-.borde{
-    @extend %border;
-}
-.bbe{
-    @include wit (25%);
-    @extend %mar2;
-}
-.imgblue{
-    @include wit (40%);
+    .borde{
+        @extend %border;
+    }
+    .parrafo{
+        font-size: nth($fz, 3);
+        @include txt (center);
+        @extend %mar;
+    }
+    .bbe{
+        @include wit (25%);
+        @extend %mar2;
+    }
+    @media (max-width: 576px){
+        .media{
+            font-size: nth($fz, 5);
+            @include txt (left);
+        }
+    }
+    @media (max-width: 576px){
+        .media6{
+            @include wit (35%);
+        }
+    }
 }
 .aasdd{
     @extend %dflex;
     margin-bottom: 50px;
     gap: 10px;
+    .imgblue{
+        @include wit (40%);
+    }
 }
 .pasto{
     color: nth($clr, 2);
     @extend %mar2;
     font-size: nth($fz, 2);
     @include txt (center);
-}
-@media (max-width: 576px){
-    .media{
-        font-size: nth($fz, 5);
-        @include txt (left);
-    }
-}
-@media (max-width: 576px){
-    .media{
-        font-size: nth($fz, 5);
-    }
-}
-@media (max-width: 576px){
-    .media2{
-        @include wit (35%);
-    }
-}
-@media (max-width: 576px){
-    .mediaimg{
-        @include wit (85%);
-    }
-}
-@media (max-width: 576px){
-    .media9{
-        @include txt (center);
-    }
-}
-@media (max-width: 576px){
-    .media5{
-        @include wit (70%);
-    }
-}
-@media (max-width: 576px){
-    .media6{
-        @include wit (35%);
-    }
-}
-@media (max-width: 576px){
-    .media11{
-        @include wit (40%);
-        object-fit: cover;
-    }
-}
-@media (max-width: 576px){
-    .media55{
-        @include wit (60%);
-    }
-}
-@media (max-width: 576px){
-    .media20{
-        @include wit (30%);
-        object-fit: cover;
-        height: 500px;
-    }
-}
-@media (max-width: 576px){
-    .media90{
-        @include wit (50%);
-        object-fit: cover;
-        height: 700px;
-    }
 }
