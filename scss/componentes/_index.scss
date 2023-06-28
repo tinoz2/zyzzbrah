@@ -448,7 +448,7 @@ div{
     transition: all 1s;
 }
 .asno:hover{
-    border: 10px solid nth(clr, 1);
+    border: 7px solid nth($clr, 1);
 }
 .anim3{
     transition: all 1s;
@@ -463,4 +463,11 @@ div{
 .anim4:hover{
     transform: scale(1.1, 1.1);
     color: nth($clr, 4);
+}
+.anim5{
+    transition: all 1s;
+}
+.anim5:hover{
+    transform: scale(1.1, 1.1);
+    border: 10px solid nth($clr, 4);
 }

@@ -482,7 +482,7 @@ div .caro2 {
 }
 
 .asno:hover {
-  border: 10px solid clr;
+  border: 7px solid gold;
 }
 
 .anim3 {
@@ -501,6 +501,15 @@ div .caro2 {
 .anim4:hover {
   transform: scale(1.1, 1.1);
   color: peru;
+}
+
+.anim5 {
+  transition: all 1s;
+}
+
+.anim5:hover {
+  transform: scale(1.1, 1.1);
+  border: 10px solid peru;
 }
 
 .header {
