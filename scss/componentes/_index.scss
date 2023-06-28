@@ -6,6 +6,7 @@ body{
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0f0202",endColorstr="#220404",GradientType=1);
     color: #a0a0a0;
     font-family: 'Bebas Neue', sans-serif;
+    overflow-x: hidden;
 }
 .carousel-inner{
     max-height: 50rem;
@@ -141,7 +142,6 @@ section{
     }
     .habanoo{
         @include txt (center);
-        border: 4px gold solid;
         font-size: 60px;
         color: nth($clr, 2);
         margin: 60px;
@@ -208,7 +208,7 @@ div{
     .cas{
         @include txt (center);
         font-size: nth($fz, 2);
-        color: lightblue;
+        color: nth($clr, 4);
         list-style: none;
     }
     .final{
@@ -428,4 +428,39 @@ div{
     @extend %mar2;
     font-size: nth($fz, 2);
     @include txt (center);
+}
+.anim{
+    transition: all 1.3s;
+}
+.anim:hover{
+    transform: scale(1.1, 1.1);
+    padding: 10px;
+    background-color: nth($clr, 1);
+}
+.anim2{
+    transition: all 0.9s;
+}
+.anim2:hover{
+    transform: scale(1.3, 1.3);
+    color: nth($clr, 1);
+}
+.asno{
+    transition: all 1s;
+}
+.asno:hover{
+    border: 10px solid nth(clr, 1);
+}
+.anim3{
+    transition: all 1s;
+}
+.anim3:hover{
+    border: 10px solid nth($clr, 3);
+    transform: scale(1.1, 1.1);
+}
+.anim4{
+    transition: all 1s;
+}
+.anim4:hover{
+    transform: scale(1.1, 1.1);
+    color: nth($clr, 4);
 }
