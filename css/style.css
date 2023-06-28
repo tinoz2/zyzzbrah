@@ -72,7 +72,8 @@ body {
 }
 
 .carousel-inner {
-  max-height: 50rem;
+  max-height: 40rem;
+  filter: brightness(0.6);
 }
 
 .section {
@@ -85,6 +86,13 @@ body {
 .section .h1 {
   font-size: 40px;
   margin-top: 40px;
+}
+.section .anim2 {
+  transition: all 0.9s;
+}
+.section .anim2:hover {
+  transform: scale(1.3, 1.3);
+  color: gold;
 }
 
 .imgdiv {
@@ -191,6 +199,13 @@ body {
     width: 85%;
   }
 }
+.paris .anim5 {
+  transition: all 1s;
+}
+.paris .anim5:hover {
+  transform: scale(1.1, 1.1);
+  border: 10px solid peru;
+}
 
 section .parrafo {
   font-size: 30px;
@@ -223,6 +238,28 @@ section .whiskybb {
     font-size: 20px;
     text-align: left;
   }
+}
+section .anim4 {
+  transition: all 1s;
+}
+section .anim4:hover {
+  transform: scale(1.1, 1.1);
+  color: peru;
+}
+section .asno {
+  transition: all 1s;
+}
+section .asno:hover {
+  border: 7px solid gold;
+}
+
+.anim2 {
+  transition: all 0.9s;
+}
+
+.anim2:hover {
+  transform: scale(1.3, 1.3);
+  color: gold;
 }
 
 div .whiskybb {
@@ -322,6 +359,13 @@ div .caro2 {
     width: 85%;
   }
 }
+div .anim3 {
+  transition: all 1s;
+}
+div .anim3:hover {
+  border: 10px solid crimson;
+  transform: scale(1.1, 1.1);
+}
 
 .blacklabel {
   margin: 40px;
@@ -377,6 +421,13 @@ div .caro2 {
   .vinito .media5 {
     width: 70%;
   }
+}
+.vinito .anim3 {
+  transition: all 1s;
+}
+.vinito .anim3:hover {
+  border: 10px solid crimson;
+  transform: scale(1.1, 1.1);
 }
 
 .span1 {
@@ -451,65 +502,19 @@ div .caro2 {
 .aasdd .imgblue {
   width: 40%;
 }
-
-.pasto {
-  color: white;
-  font-size: 40px;
-  text-align: center;
-}
-
-.anim {
+.aasdd .anim {
   transition: all 1.3s;
 }
-
-.anim:hover {
+.aasdd .anim:hover {
   transform: scale(1.1, 1.1);
   padding: 10px;
   background-color: gold;
 }
 
-.anim2 {
-  transition: all 0.9s;
-}
-
-.anim2:hover {
-  transform: scale(1.3, 1.3);
-  color: gold;
-}
-
-.asno {
-  transition: all 1s;
-}
-
-.asno:hover {
-  border: 7px solid gold;
-}
-
-.anim3 {
-  transition: all 1s;
-}
-
-.anim3:hover {
-  border: 10px solid crimson;
-  transform: scale(1.1, 1.1);
-}
-
-.anim4 {
-  transition: all 1s;
-}
-
-.anim4:hover {
-  transform: scale(1.1, 1.1);
-  color: peru;
-}
-
-.anim5 {
-  transition: all 1s;
-}
-
-.anim5:hover {
-  transform: scale(1.1, 1.1);
-  border: 10px solid peru;
+.pasto {
+  color: white;
+  font-size: 40px;
+  text-align: center;
 }
 
 .header {

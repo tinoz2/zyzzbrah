@@ -9,7 +9,8 @@ body{
     overflow-x: hidden;
 }
 .carousel-inner{
-    max-height: 50rem;
+    max-height: 40rem;
+    filter: brightness(0.6);
 }
 .section{
     text-align: center;
@@ -18,13 +19,20 @@ body{
     color: nth($clr, 2);
     .h1{
         font-size: nth($fz , 2);
-        margin-top: 40px;
+        margin-top: $var1;
+    }
+    .anim2{
+        transition: all 0.9s;
+    }
+    .anim2:hover{
+        transform: scale(1.3, 1.3);
+        color: nth($clr, 1);
     }
 }
 .imgdiv{
     @include flex (flex, space-around, center);
     .sa{
-        margin: 40px;
+        margin: $var1;
         @extend %border;
     }
 }
@@ -35,8 +43,8 @@ body{
     display: flex;
     .imagen{
         @include wit (500px);
-        margin-right: 20px;
-        margin-left: 20px;
+        margin-right: map-get($ppp, tino-a);
+        margin-left: map-get($ppp, tino-a);
         @extend %border;
     }
     @media (max-width: 576px){
@@ -69,8 +77,8 @@ body{
     .pblended{
         @include txt (center);
         font-size: nth($fz, 4);
-        margin-right: 20px;
-        margin-left: 20px;
+        margin-right: map-get($ppp, tino-a);
+        margin-left: map-get($ppp, tino-a);
     }
     @media (max-width: 576px){
         .media{
@@ -101,9 +109,9 @@ body{
 }
 .cigarro{
     @include txt (end);
-    margin-left: 60px;
-    margin-right: 50px;
-    margin-top: 60px;
+    margin-left: map-get($ppp, tino-b);
+    margin-right: $var2;
+    margin-top: map-get($ppp, tino-b);
     color: nth($clr, 2);
     font-size: nth($fz , 1);
 }
@@ -133,6 +141,13 @@ body{
             @include wit (85%);
         }
     }
+    .anim5{
+        transition: all 1s;
+    }
+    .anim5:hover{
+        transform: scale(1.1, 1.1);
+        border: 10px solid nth($clr, 4);
+    }
 }
 section{
     .parrafo{
@@ -142,9 +157,9 @@ section{
     }
     .habanoo{
         @include txt (center);
-        font-size: 60px;
+        font-size: map-get($ppp, tino-b);
         color: nth($clr, 2);
-        margin: 60px;
+        margin: map-get($ppp, tino-b);
     }
     .nacional{
         @include txt (center);
@@ -153,8 +168,8 @@ section{
         @extend %mar;
     }
     .calidad{
-        margin-top: 60px;
-        margin-left: 50px;
+        margin-top: map-get($ppp, tino-b);
+        margin-left: $var2;
         color: nth($clr, 2);
         font-size: nth($fz, 1);
     }
@@ -170,6 +185,26 @@ section{
             @include txt (left);
         }
     }
+    .anim4{
+        transition: all 1s;
+    }
+    .anim4:hover{
+        transform: scale(1.1, 1.1);
+        color: nth($clr, 4);
+    }
+    .asno{
+        transition: all 1s;
+    }
+    .asno:hover{
+        border: 7px solid nth($clr, 1);
+    }
+}
+.anim2{
+    transition: all 0.9s;
+}
+.anim2:hover{
+    transform: scale(1.3, 1.3);
+    color: nth($clr, 1);
 }
 div{
     .whiskybb{
@@ -179,7 +214,7 @@ div{
         @extend %mar;
     }
     .parrafo2{
-        margin-left: 50px;
+        margin-left: $var2;
         margin-top: 30px;
         font-size: nth($fz , 3);
     }
@@ -198,7 +233,7 @@ div{
         @include txt (end);
         font-size: nth($fz , 3);
         margin-top: 30px;
-        margin-right: 50px;
+        margin-right: $var2;
     }
     .parrafo0{
         @include txt (center);
@@ -215,11 +250,11 @@ div{
         @include txt (center);
         color: nth($clr, 2);
         font-size: nth($fz, 1);
-        margin: 50px;
+        margin: $var2;
     }
     .parrafo4{
         @include txt (center);
-        margin: 50px;
+        margin: $var2;
         font-size: nth($fz, 3);
     }
     .elproceso{
@@ -282,14 +317,21 @@ div{
             @include wit (85%);
         }
     }
+    .anim3{
+        transition: all 1s;
+    }
+    .anim3:hover{
+        border: 10px solid nth($clr, 3);
+        transform: scale(1.1, 1.1);
+    }
 }
 .blacklabel{
     @extend %dflex;
-    margin: 40px;
+    margin: $var1;
     .parrafoblack{
         @include txt (center);
         font-size: nth($fz, 3);
-        margin-right: 20px;
+        margin-right: map-get($ppp, tino-a);
     }
     .nnn{
         @include wit (30%);
@@ -310,7 +352,7 @@ div{
 .aaa{
     font-size: nth($fz, 2);
     color: nth($clr, 1);
-    margin: 40px;
+    margin: $var1;
 }
 .apa{
     @extend %dflex;
@@ -342,12 +384,19 @@ div{
             @include wit (70%);
         }
     }
+    .anim3{
+        transition: all 1s;
+    }
+    .anim3:hover{
+        border: 10px solid nth($clr, 3);
+        transform: scale(1.1, 1.1);
+    }
 }
 .span1{
     color: nth($clr, 2);
 }
 .aa{
-    margin: 50px;
+    margin: $var2;
 }
 .ds{
     display: flex;
@@ -417,10 +466,18 @@ div{
 }
 .aasdd{
     @extend %dflex;
-    margin-bottom: 50px;
+    margin-bottom: $var2;
     gap: 10px;
     .imgblue{
         @include wit (40%);
+    }
+    .anim{
+        transition: all 1.3s;
+    }
+    .anim:hover{
+        transform: scale(1.1, 1.1);
+        padding: 10px;
+        background-color: nth($clr, 1);
     }
 }
 .pasto{
@@ -428,46 +485,4 @@ div{
     @extend %mar2;
     font-size: nth($fz, 2);
     @include txt (center);
-}
-.anim{
-    transition: all 1.3s;
-}
-.anim:hover{
-    transform: scale(1.1, 1.1);
-    padding: 10px;
-    background-color: nth($clr, 1);
-}
-.anim2{
-    transition: all 0.9s;
-}
-.anim2:hover{
-    transform: scale(1.3, 1.3);
-    color: nth($clr, 1);
-}
-.asno{
-    transition: all 1s;
-}
-.asno:hover{
-    border: 7px solid nth($clr, 1);
-}
-.anim3{
-    transition: all 1s;
-}
-.anim3:hover{
-    border: 10px solid nth($clr, 3);
-    transform: scale(1.1, 1.1);
-}
-.anim4{
-    transition: all 1s;
-}
-.anim4:hover{
-    transform: scale(1.1, 1.1);
-    color: nth($clr, 4);
-}
-.anim5{
-    transition: all 1s;
-}
-.anim5:hover{
-    transform: scale(1.1, 1.1);
-    border: 10px solid nth($clr, 4);
 }
