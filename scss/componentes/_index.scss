@@ -15,10 +15,10 @@ body{
 .section{
     text-align: center;
     @include mp (10px, 10px);
-    font-size: nth($fz , 2);
+    font-size: 35px;
     color: nth($clr, 2);
     .h1{
-        font-size: nth($fz , 2);
+        font-size: 35px;
         margin-top: $var1;
     }
     .anim2{
