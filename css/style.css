@@ -157,6 +157,13 @@ body {
     width: 30%;
     object-fit: cover;
     height: 500px;
+    margin: 40px;
+  }
+}
+@media (max-width: 576px) {
+  .asdd {
+    display: block;
+    text-align: center;
   }
 }
 

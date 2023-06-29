@@ -91,7 +91,12 @@ body{
             @include wit (30%);
             object-fit: cover;
             height: 500px;
+            margin: $var1;
         }
+    }
+    @media (max-width: 576px){
+        display: block;
+        @include txt (center);
     }
 }
 .divpapa{
