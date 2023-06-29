@@ -54,6 +54,13 @@ body{
             height: 700px;
         }
     }
+    @media (max-width: 375px){
+        .media90{
+            @include wit (40%);
+            object-fit: cover;
+            height: 500px;
+        }
+    }
 }
 .diva{
     font-size: nth($fz , 5);
@@ -134,6 +141,16 @@ body{
         @extend %mar;
         font-size: nth($fz, 2);
         color: nth($clr , 2);
+    }
+    @media (max-width: 576px){
+        .media55{
+            @include wit (55%);
+        }
+    }
+    @media (max-width: 375px){
+        .asd3{
+            font-size: nth($fz, 3);
+        }
     }
 }
 .paris{
@@ -353,6 +370,12 @@ div{
             object-fit: cover;
         }
     }
+    @media (max-width: 375px){
+        .nnn{
+            height: 300px;
+            object-fit: cover;
+        }
+    }
 }
 .aaa{
     font-size: nth($fz, 2);
@@ -436,6 +459,19 @@ div{
             object-fit: cover;
         }
     }
+    @media (max-width: 375px){
+        .media6{
+            @include wit (45%);
+            object-fit: fill;
+            height: 300px;
+        }
+    }
+    @media (max-width: 375px){
+        .media11{
+            @include wit (35%);
+            height: 600px;
+        }
+    }
 }
 .pai{
     @include txt (center);
@@ -466,6 +502,12 @@ div{
     @media (max-width: 576px){
         .media6{
             @include wit (35%);
+        }
+    }
+    @media (max-width: 375px){
+        .media6{
+            @include wit (40%);
+            height: 150px;
         }
     }
 }

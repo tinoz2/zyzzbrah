@@ -119,6 +119,13 @@ body {
     height: 700px;
   }
 }
+@media (max-width: 375px) {
+  .aaaa .media90 {
+    width: 40%;
+    object-fit: cover;
+    height: 500px;
+  }
+}
 
 .diva {
   font-size: 20px;
@@ -196,6 +203,16 @@ body {
 .asd1 .asd3 {
   font-size: 40px;
   color: white;
+}
+@media (max-width: 576px) {
+  .asd1 .media55 {
+    width: 55%;
+  }
+}
+@media (max-width: 375px) {
+  .asd1 .asd3 {
+    font-size: 30px;
+  }
 }
 
 .paris .paris2 {
@@ -397,6 +414,12 @@ div .anim3:hover {
     object-fit: cover;
   }
 }
+@media (max-width: 375px) {
+  .blacklabel .nnn {
+    height: 300px;
+    object-fit: cover;
+  }
+}
 
 .aaa {
   font-size: 40px;
@@ -476,6 +499,19 @@ div .anim3:hover {
     object-fit: cover;
   }
 }
+@media (max-width: 375px) {
+  .ds .media6 {
+    width: 45%;
+    object-fit: fill;
+    height: 300px;
+  }
+}
+@media (max-width: 375px) {
+  .ds .media11 {
+    width: 35%;
+    height: 600px;
+  }
+}
 
 .pai {
   text-align: center;
@@ -499,6 +535,12 @@ div .anim3:hover {
 @media (max-width: 576px) {
   .flexx .media6 {
     width: 35%;
+  }
+}
+@media (max-width: 375px) {
+  .flexx .media6 {
+    width: 40%;
+    height: 150px;
   }
 }
 
