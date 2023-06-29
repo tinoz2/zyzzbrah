@@ -1,12 +1,12 @@
 .footer{
-    text-align: center;
-    font-size: 30px;
-    background-color: gold;
+    @include txt (center);
+    font-size: nth($fz, 3);
+    background-color: nth($clr, 1);
     color: black;
     font-family: 'Tilt Prism', cursive;
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%;
+    @include wit (100%);
     height: 5%;
 }

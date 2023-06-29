@@ -254,11 +254,11 @@ section .asno:hover {
 }
 
 .anim2 {
-  transition: all 0.9s;
+  transition: all 0.5s;
 }
 
 .anim2:hover {
-  transform: scale(1.3, 1.3);
+  transform: scale(1.1, 1.1);
   color: gold;
 }
 
@@ -460,12 +460,12 @@ div .anim3:hover {
 }
 @media (max-width: 576px) {
   .ds .media6 {
-    width: 35%;
+    width: 40%;
   }
 }
 @media (max-width: 576px) {
   .ds .media11 {
-    width: 40%;
+    width: 30%;
     object-fit: cover;
   }
 }
@@ -509,6 +509,12 @@ div .anim3:hover {
   transform: scale(1.1, 1.1);
   padding: 10px;
   background-color: gold;
+}
+@media (max-width: 576px) {
+  .aasdd .media11 {
+    width: 60%;
+    object-fit: cover;
+  }
 }
 
 .pasto {

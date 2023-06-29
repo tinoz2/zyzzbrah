@@ -1,12 +1,12 @@
 .header{
-    text-align: center;
-    font-size: 30px;
-    background-color: gold;
+    @include txt (center);
+    font-size: nth($fz, 3);
+    background-color: nth($clr, 1);
     color: black;
     font-family: 'Tilt Prism', cursive;
 }
 .pan{
-    color: white;
+    color: nth($clr, 2);
     font-size: 4rem;
     display: inline-block;
     position: relative;
@@ -16,11 +16,11 @@
 .pan:after{
     content: "";
     position: absolute;
-    width: 100%;
+    @include wit (100%);
     height: 4px;
     bottom: 0;
     left: 0;
-    background-color: gold;
+    background-color: nth($clr, 1);
     transform: scaleX(0);
     transform-origin: bottom right;
     transition: transform 0.6s ease-out;
@@ -30,7 +30,7 @@
     transform-origin: bottom left;
 }
 .pana{
-    color: white;
+    color: nth($clr, 2);
     font-size: 4rem;
     display: inline-block;
     position: relative;
@@ -42,11 +42,11 @@
 .pana:after{
     content: "";
     position: absolute;
-    width: 100%;
+    @include wit (100%);
     height: 4px;
     bottom: 0;
     left: 0;
-    background-color: gold;
+    background-color: nth($clr, 1);
     transform: scaleX(0);
     transform-origin: bottom right;
     transition: transform 0.6s ease-out;

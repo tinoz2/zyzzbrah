@@ -5,14 +5,14 @@ nav{
         position: relative;
         text-decoration: none;
         color: #a0a0a0;
-        font-size: 20px;
+        font-size: nth($fz, 5);
         letter-spacing: 0.5px;
         padding: 0 10px;
     }
     a:after{
         content: "";
         position: absolute;
-        background-color: gold;
+        background-color: nth($clr, 1);
         height: 3px;
         width: 0;
         left: 0;
