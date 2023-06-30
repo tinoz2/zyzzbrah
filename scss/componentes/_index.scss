@@ -46,26 +46,21 @@ body{
         margin-right: map-get($ppp, tino-a);
         margin-left: map-get($ppp, tino-a);
         @extend %border;
+        @media (max-width: 375px){
+            @include wit (80%);
+        }
     }
     @media (max-width: 576px){
-        .media90{
-            @include wit (50%);
-            object-fit: cover;
-            height: 700px;
-        }
-    }
-    @media (max-width: 375px){
-        .media90{
-            @include wit (40%);
-            object-fit: cover;
-            height: 500px;
-        }
+        display: block;
+        @include txt (center);
+        margin: 20px;
     }
 }
 .diva{
     font-size: nth($fz , 5);
     .h2coc{
         color: nth($clr, 1);
+        @extend %mar2;
     }
 }
 .h3, .h3c, .hppp, .spana{
@@ -95,7 +90,7 @@ body{
     }
     @media (max-width: 576px){
         .media20{
-            @include wit (30%);
+            @include wit (60%);
             object-fit: cover;
             height: 500px;
             margin: $var1;
@@ -105,6 +100,9 @@ body{
         display: block;
         @include txt (center);
     }
+}
+.types{
+    list-style: none;
 }
 .divpapa{
     @include txt (center);
@@ -321,6 +319,9 @@ div{
         font-size: nth($fz, 2);
         @extend %mar2;
         @include txt (end);
+        @media (max-width: 375px){
+            @include txt (center);
+        }
     }
     @media (max-width: 576px){
         .media{
@@ -349,7 +350,7 @@ div{
 }
 .blacklabel{
     @extend %dflex;
-    margin: $var1;
+    @extend %mar2;
     .parrafoblack{
         @include txt (center);
         font-size: nth($fz, 3);
@@ -446,6 +447,7 @@ div{
         .media{
             font-size: nth($fz, 5);
             @include txt (left);
+            margin-bottom: $var2;
         }
     }
     @media (max-width: 576px){
@@ -461,16 +463,22 @@ div{
     }
     @media (max-width: 375px){
         .media6{
-            @include wit (45%);
-            object-fit: fill;
+            @include wit (65%);
+            object-fit: cover;
             height: 300px;
+            margin-bottom: $var1;
         }
     }
     @media (max-width: 375px){
         .media11{
-            @include wit (35%);
-            height: 600px;
+            @include wit (85%);
+            height: 400px;
+            object-fit: cover;
         }
+    }
+    @media (max-width: 375px){
+        display: block;
+        @include txt (center);
     }
 }
 .pai{

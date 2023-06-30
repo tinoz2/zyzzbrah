@@ -12,6 +12,9 @@
     position: relative;
     display: flex;
     justify-content: center;
+    @media (max-width: 576px){
+        @include txt (center);
+    }
 }
 .pan:after{
     content: "";

@@ -12,7 +12,7 @@
   margin: 30px;
 }
 
-.pasto, .flexx .bbe, .pai, .ds, div .caro2, div .caro, div .parrafito, div .ptemperatura, div .temperatura, div .vinoparrafo, div .elproceso, .divpapa {
+.pasto, .flexx .bbe, .pai, .ds, .blacklabel, div .caro2, div .caro, div .parrafito, div .ptemperatura, div .temperatura, div .vinoparrafo, div .elproceso, .divpapa, .diva .h2coc {
   margin: 20px;
 }
 
@@ -112,18 +112,16 @@ body {
   margin-right: 20px;
   margin-left: 20px;
 }
-@media (max-width: 576px) {
-  .aaaa .media90 {
-    width: 50%;
-    object-fit: cover;
-    height: 700px;
+@media (max-width: 375px) {
+  .aaaa .imagen {
+    width: 80%;
   }
 }
-@media (max-width: 375px) {
-  .aaaa .media90 {
-    width: 40%;
-    object-fit: cover;
-    height: 500px;
+@media (max-width: 576px) {
+  .aaaa {
+    display: block;
+    text-align: center;
+    margin: 20px;
   }
 }
 
@@ -161,7 +159,7 @@ body {
 }
 @media (max-width: 576px) {
   .asdd .media20 {
-    width: 30%;
+    width: 60%;
     object-fit: cover;
     height: 500px;
     margin: 40px;
@@ -172,6 +170,10 @@ body {
     display: block;
     text-align: center;
   }
+}
+
+.types {
+  list-style: none;
 }
 
 .divpapa {
@@ -366,6 +368,11 @@ div .caro2 {
   font-size: 40px;
   text-align: end;
 }
+@media (max-width: 375px) {
+  div .caro2 {
+    text-align: center;
+  }
+}
 @media (max-width: 576px) {
   div .media {
     font-size: 20px;
@@ -391,9 +398,6 @@ div .anim3:hover {
   transform: scale(1.1, 1.1);
 }
 
-.blacklabel {
-  margin: 40px;
-}
 .blacklabel .parrafoblack {
   text-align: center;
   font-size: 30px;
@@ -486,6 +490,7 @@ div .anim3:hover {
   .ds .media {
     font-size: 20px;
     text-align: left;
+    margin-bottom: 50px;
   }
 }
 @media (max-width: 576px) {
@@ -501,15 +506,23 @@ div .anim3:hover {
 }
 @media (max-width: 375px) {
   .ds .media6 {
-    width: 45%;
-    object-fit: fill;
+    width: 65%;
+    object-fit: cover;
     height: 300px;
+    margin-bottom: 40px;
   }
 }
 @media (max-width: 375px) {
   .ds .media11 {
-    width: 35%;
-    height: 600px;
+    width: 85%;
+    height: 400px;
+    object-fit: cover;
+  }
+}
+@media (max-width: 375px) {
+  .ds {
+    display: block;
+    text-align: center;
   }
 }
 
@@ -587,6 +600,11 @@ div .anim3:hover {
   position: relative;
   display: flex;
   justify-content: center;
+}
+@media (max-width: 576px) {
+  .pan {
+    text-align: center;
+  }
 }
 
 .pan:after {
