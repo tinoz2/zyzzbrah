@@ -35,6 +35,27 @@ body{
         margin: $var1;
         @extend %border;
     }
+    .sa{
+        transition: all 1.5s ease-in-out;
+    }
+    .sa:hover{
+        transform: scale(0.5) translate(-1%, -70%);
+    }
+    .abs{
+        position: absolute;
+        opacity: 0.1;
+        color: nth($clr, 4);
+        @include txt (center);
+        font-size: 100px;
+        height: 1px;
+        @media (max-width: 576px){
+            height: 1px;
+            font-size: 60px;
+        }
+        @media(max-width: 375px){
+            font-size: nth($fz, 1);
+        }
+    }
 }
 .carousel{
     @extend %border;
@@ -337,7 +358,7 @@ div{
     }
     @media (max-width: 576px){
         .mediaimg{
-            @include wit (85%);
+            @include wit (80%);
         }
     }
     .anim3{
@@ -489,6 +510,8 @@ div{
 }
 .flexx{
     @extend %dflex;
+    margin-bottom: 20px;
+    margin-top: 20px;
     .borde{
         @extend %border;
     }
@@ -513,9 +536,14 @@ div{
         }
     }
     @media (max-width: 375px){
-        .media6{
-            @include wit (40%);
-            height: 150px;
+        display: block;
+        @include txt (center);
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    @media (max-width: 375px){
+        .bbe{
+            @include wit (60%);
         }
     }
 }

@@ -9,4 +9,7 @@
     bottom: 0;
     @include wit (100%);
     height: 5%;
+    @media (max-width: 375px){
+        height: 6%;
+    }
 }
