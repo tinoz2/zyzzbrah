@@ -473,6 +473,7 @@ div{
     @extend %mar2;
     .imgw{
         @include wit (25%);
+        margin-bottom: $var1;
     }
     .parraf{
         @include txt (right);
