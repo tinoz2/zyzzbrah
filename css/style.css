@@ -33,6 +33,11 @@
     height: 6%;
   }
 }
+@media (max-height: 736px) {
+  .footer {
+    height: 6%;
+  }
+}
 
 nav {
   display: flex;
