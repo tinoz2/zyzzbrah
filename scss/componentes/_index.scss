@@ -55,6 +55,9 @@ body{
         @media(max-width: 375px){
             font-size: nth($fz, 1);
         }
+        @media(max-width: 414px){
+            font-size: nth($fz, 1);
+        }
     }
 }
 .carousel{
@@ -68,6 +71,9 @@ body{
         margin-left: map-get($ppp, tino-a);
         @extend %border;
         @media (max-width: 375px){
+            @include wit (80%);
+        }
+        @media (max-width: 414px){
             @include wit (80%);
         }
     }
@@ -167,6 +173,11 @@ body{
         }
     }
     @media (max-width: 375px){
+        .asd3{
+            font-size: nth($fz, 3);
+        }
+    }
+    @media (max-width: 414px){
         .asd3{
             font-size: nth($fz, 3);
         }
@@ -343,6 +354,9 @@ div{
         @media (max-width: 375px){
             @include txt (center);
         }
+        @media (max-width: 414px){
+            @include txt (center);
+        }
     }
     @media (max-width: 576px){
         .media{
@@ -393,6 +407,12 @@ div{
         }
     }
     @media (max-width: 375px){
+        .nnn{
+            height: 300px;
+            object-fit: cover;
+        }
+    }
+    @media (max-width: 414px){
         .nnn{
             height: 300px;
             object-fit: cover;
@@ -501,6 +521,25 @@ div{
         display: block;
         @include txt (center);
     }
+    @media (max-width: 414px){
+        .media6{
+            @include wit (65%);
+            object-fit: cover;
+            height: 300px;
+            margin-bottom: $var1;
+        }
+    }
+    @media (max-width: 414px){
+        .media11{
+            @include wit (85%);
+            height: 400px;
+            object-fit: cover;
+        }
+    }
+    @media (max-width: 414px){
+        display: block;
+        @include txt (center);
+    }
 }
 .pai{
     @include txt (center);
@@ -542,6 +581,17 @@ div{
         margin-bottom: 30px;
     }
     @media (max-width: 375px){
+        .bbe{
+            @include wit (60%);
+        }
+    }
+    @media (max-width: 414px){
+        display: block;
+        @include txt (center);
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    @media (max-width: 414px){
         .bbe{
             @include wit (60%);
         }

@@ -133,6 +133,11 @@ body {
     font-size: 50px;
   }
 }
+@media (max-width: 414px) {
+  .imgdiv .abs {
+    font-size: 50px;
+  }
+}
 
 .aaaa {
   display: flex;
@@ -143,6 +148,11 @@ body {
   margin-left: 20px;
 }
 @media (max-width: 375px) {
+  .aaaa .imagen {
+    width: 80%;
+  }
+}
+@media (max-width: 414px) {
   .aaaa .imagen {
     width: 80%;
   }
@@ -242,6 +252,11 @@ body {
   }
 }
 @media (max-width: 375px) {
+  .asd1 .asd3 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 414px) {
   .asd1 .asd3 {
     font-size: 30px;
   }
@@ -403,6 +418,11 @@ div .caro2 {
     text-align: center;
   }
 }
+@media (max-width: 414px) {
+  div .caro2 {
+    text-align: center;
+  }
+}
 @media (max-width: 576px) {
   div .media {
     font-size: 20px;
@@ -449,6 +469,12 @@ div .anim3:hover {
   }
 }
 @media (max-width: 375px) {
+  .blacklabel .nnn {
+    height: 300px;
+    object-fit: cover;
+  }
+}
+@media (max-width: 414px) {
   .blacklabel .nnn {
     height: 300px;
     object-fit: cover;
@@ -555,6 +581,27 @@ div .anim3:hover {
     text-align: center;
   }
 }
+@media (max-width: 414px) {
+  .ds .media6 {
+    width: 65%;
+    object-fit: cover;
+    height: 300px;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 414px) {
+  .ds .media11 {
+    width: 85%;
+    height: 400px;
+    object-fit: cover;
+  }
+}
+@media (max-width: 414px) {
+  .ds {
+    display: block;
+    text-align: center;
+  }
+}
 
 .pai {
   text-align: center;
@@ -593,6 +640,19 @@ div .anim3:hover {
   }
 }
 @media (max-width: 375px) {
+  .flexx .bbe {
+    width: 60%;
+  }
+}
+@media (max-width: 414px) {
+  .flexx {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 414px) {
   .flexx .bbe {
     width: 60%;
   }
