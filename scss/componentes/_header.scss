@@ -11,9 +11,14 @@
     display: inline-block;
     position: relative;
     display: flex;
+    margin: $var1;
     justify-content: center;
     @media (max-width: 576px){
         @include txt (center);
+    }
+    @media (max-width: 414px){
+        font-size: nth($fz, 1);
+        text-align: center;
     }
 }
 .pan:after{
@@ -41,6 +46,12 @@
     justify-content: center;
     margin: 40px;
     padding: 20px;
+    @media (max-width: 576px){
+        @include txt (center);
+    }
+    @media (max-width: 414px){
+        font-size: nth($fz, 1);
+    }
 }
 .pana:after{
     content: "";

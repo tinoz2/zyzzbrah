@@ -15,11 +15,17 @@ body{
 .section{
     text-align: center;
     @include mp (10px, 10px);
-    font-size: 35px;
+    font-size: nth($fz, 1);
     color: nth($clr, 2);
+    @media (max-width: 414px){
+        font-size: nth($fz, 3);
+    }
     .h1{
-        font-size: 35px;
+        font-size: nth($fz, 1);
         margin-top: $var1;
+        @media (max-width: 414px){
+            font-size: nth($fz, 3);
+        }
     }
     .anim2{
         transition: all 0.9s;
@@ -32,14 +38,13 @@ body{
 .imgdiv{
     @include flex (flex, space-around, center);
     .sa{
-        margin: $var1;
         @extend %border;
     }
     .sa{
         transition: all 1.5s ease-in-out;
     }
     .sa:hover{
-        transform: scale(0.5) translate(-1%, -70%);
+        transform: scale(0.5) translate(-1%, -60%);
     }
     .abs{
         position: absolute;
@@ -218,6 +223,9 @@ section{
         color: nth($clr, 2);
         font-size: nth($fz, 1);
         @extend %mar;
+        @media (max-width: 414px){
+            font-size: nth($fz, 2);
+        }
     }
     .calidad{
         margin-top: map-get($ppp, tino-b);
@@ -264,6 +272,9 @@ div{
         @include txt (center);
         font-size: nth($fz, 1);
         @extend %mar;
+        @media (max-width: 414px){
+            font-size: nth($fz, 2);
+        }
     }
     .parrafo2{
         margin-left: $var2;
@@ -277,9 +288,12 @@ div{
     }
     .hpp{
         @include txt (center);
-        font-size: nth($fz, 2);
+        font-size: nth($fz, 1);
         @extend %mar;
         color: nth($clr, 2);
+        @media (max-width: 414px){
+            font-size: nth($fz, 2);
+        }
     }
     .parrafo3{
         @include txt (end);
@@ -345,6 +359,11 @@ div{
         color: nth($clr, 2);
         font-size: nth($fz, 2);
         @extend %mar2;
+        @media (max-width: 576px){
+            margin-top: $var2;
+            margin-bottom: $var2;
+            font-size: 35px;
+        }
     }
     .caro2{
         color: nth($clr, 2);
@@ -373,6 +392,11 @@ div{
     @media (max-width: 576px){
         .mediaimg{
             @include wit (80%);
+        }
+    }
+    @media (max-width: 576px){
+        .imgzzz{
+            @include txt (center);
         }
     }
     .anim3{
@@ -443,11 +467,15 @@ div{
     color: nth($clr, 4);
 }
 .vinito{
+    margin: $var2;
     @extend %dflex;
     .vinoimg{
         @include wit (35%);
         @extend %border;
         @extend %mar;
+    }
+    @media (max-width: 576px){
+        margin: 0;
     }
     @media (max-width: 576px){
         .media5{

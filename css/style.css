@@ -90,12 +90,22 @@ body {
   text-align: center;
   margin: 10px;
   padding: 10px;
-  font-size: 35px;
+  font-size: 50px;
   color: white;
 }
+@media (max-width: 414px) {
+  .section {
+    font-size: 30px;
+  }
+}
 .section .h1 {
-  font-size: 35px;
+  font-size: 50px;
   margin-top: 40px;
+}
+@media (max-width: 414px) {
+  .section .h1 {
+    font-size: 30px;
+  }
 }
 .section .anim2 {
   transition: all 0.9s;
@@ -111,13 +121,10 @@ body {
   align-items: center;
 }
 .imgdiv .sa {
-  margin: 40px;
-}
-.imgdiv .sa {
   transition: all 1.5s ease-in-out;
 }
 .imgdiv .sa:hover {
-  transform: scale(0.5) translate(-1%, -70%);
+  transform: scale(0.5) translate(-1%, -60%);
 }
 .imgdiv .abs {
   position: absolute;
@@ -298,6 +305,11 @@ section .nacional {
   color: white;
   font-size: 50px;
 }
+@media (max-width: 414px) {
+  section .nacional {
+    font-size: 40px;
+  }
+}
 section .calidad {
   margin-top: 60px;
   margin-left: 50px;
@@ -343,6 +355,11 @@ div .whiskybb {
   text-align: center;
   font-size: 50px;
 }
+@media (max-width: 414px) {
+  div .whiskybb {
+    font-size: 40px;
+  }
+}
 div .parrafo2 {
   margin-left: 50px;
   margin-top: 30px;
@@ -354,8 +371,13 @@ div .parrafo {
 }
 div .hpp {
   text-align: center;
-  font-size: 40px;
+  font-size: 50px;
   color: white;
+}
+@media (max-width: 414px) {
+  div .hpp {
+    font-size: 40px;
+  }
 }
 div .parrafo3 {
   text-align: end;
@@ -413,6 +435,13 @@ div .caro {
   color: white;
   font-size: 40px;
 }
+@media (max-width: 576px) {
+  div .caro {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 35px;
+  }
+}
 div .caro2 {
   color: white;
   font-size: 40px;
@@ -443,6 +472,11 @@ div .caro2 {
 @media (max-width: 576px) {
   div .mediaimg {
     width: 80%;
+  }
+}
+@media (max-width: 576px) {
+  div .imgzzz {
+    text-align: center;
   }
 }
 div .anim3 {
@@ -509,8 +543,16 @@ div .anim3:hover {
   color: peru;
 }
 
+.vinito {
+  margin: 50px;
+}
 .vinito .vinoimg {
   width: 35%;
+}
+@media (max-width: 576px) {
+  .vinito {
+    margin: 0;
+  }
 }
 @media (max-width: 576px) {
   .vinito .media5 {
@@ -706,10 +748,17 @@ div .anim3:hover {
   display: inline-block;
   position: relative;
   display: flex;
+  margin: 40px;
   justify-content: center;
 }
 @media (max-width: 576px) {
   .pan {
+    text-align: center;
+  }
+}
+@media (max-width: 414px) {
+  .pan {
+    font-size: 50px;
     text-align: center;
   }
 }
@@ -741,6 +790,16 @@ div .anim3:hover {
   justify-content: center;
   margin: 40px;
   padding: 20px;
+}
+@media (max-width: 576px) {
+  .pana {
+    text-align: center;
+  }
+}
+@media (max-width: 414px) {
+  .pana {
+    font-size: 50px;
+  }
 }
 
 .pana:after {
