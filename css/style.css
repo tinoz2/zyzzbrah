@@ -1,4 +1,4 @@
-.aasdd, .flexx, .vinito, .apa, .blacklabel, .paris, .asd1, .imghabano {
+.cardbluep, .flexx, .vinito, .apa, .blacklabel, .paris, .asd1, .imghabano {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -120,37 +120,6 @@ body {
   justify-content: space-around;
   align-items: center;
 }
-.imgdiv .sa {
-  transition: all 1.5s ease-in-out;
-}
-.imgdiv .sa:hover {
-  transform: scale(0.5) translate(-1%, -60%);
-}
-.imgdiv .abs {
-  position: absolute;
-  opacity: 0.1;
-  color: peru;
-  text-align: center;
-  font-size: 100px;
-  height: 1px;
-}
-@media (max-width: 576px) {
-  .imgdiv .abs {
-    height: 1px;
-    font-size: 60px;
-  }
-}
-@media (max-width: 375px) {
-  .imgdiv .abs {
-    font-size: 50px;
-  }
-}
-@media (max-width: 414px) {
-  .imgdiv .abs {
-    font-size: 50px;
-  }
-}
-
 .aaaa {
   display: flex;
 }
@@ -168,6 +137,12 @@ body {
   .aaaa .imagen {
     width: 80%;
   }
+}
+.aaaa .anim00 {
+  transition: 0.5s all;
+}
+.aaaa .anim00:hover {
+  filter: brightness(0.6);
 }
 @media (max-width: 576px) {
   .aaaa {
@@ -333,12 +308,6 @@ section .anim4 {
 section .anim4:hover {
   transform: scale(1.1, 1.1);
   color: peru;
-}
-section .asno {
-  transition: all 1s;
-}
-section .asno:hover {
-  border: 7px solid gold;
 }
 
 .anim2 {
@@ -706,32 +675,71 @@ div .anim3:hover {
   }
 }
 
-.aasdd {
-  margin-bottom: 50px;
-  gap: 10px;
-}
-.aasdd .imgblue {
-  width: 40%;
-}
-.aasdd .anim {
-  transition: all 1.3s;
-}
-.aasdd .anim:hover {
-  transform: scale(1.1, 1.1);
-  padding: 10px;
-  background-color: gold;
-}
-@media (max-width: 576px) {
-  .aasdd .media11 {
-    width: 60%;
-    object-fit: cover;
-  }
-}
-
 .pasto {
   color: white;
   font-size: 40px;
   text-align: center;
+}
+
+.cardbluep {
+  margin-top: 130px;
+  margin-bottom: 150px;
+}
+@media (max-width: 414px) {
+  .cardbluep {
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+}
+@media (max-width: 414px) {
+  .cardbluep {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+}
+.cardbluep .cardblue {
+  width: 50%;
+  position: absolute;
+  opacity: 0.4;
+  border-radius: 30px;
+  border: 4px solid white;
+}
+@media (max-width: 576px) {
+  .cardbluep .cardblue {
+    width: 95%;
+    height: 60%;
+  }
+}
+@media (max-width: 414px) {
+  .cardbluep .cardblue {
+    width: 90%;
+    height: 50%;
+  }
+}
+@media (max-width: 375px) {
+  .cardbluep .cardblue {
+    width: 90%;
+    height: 60%;
+  }
+}
+.cardbluep .cardbluep {
+  color: white;
+  font-size: 25px;
+}
+@media (max-width: 576px) {
+  .cardbluep .cardbluep {
+    font-size: 20px;
+  }
+}
+@media (max-width: 414px) {
+  .cardbluep .cardbluep {
+    font-size: 15px;
+  }
+}
+@media (max-width: 375px) {
+  .cardbluep .cardbluep {
+    font-size: 13px;
+  }
 }
 
 .header {
