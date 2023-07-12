@@ -742,6 +742,31 @@ div .anim3:hover {
   }
 }
 
+.form {
+  font-size: 40px;
+  color: white;
+}
+
+.formulario {
+  margin-top: 100px;
+}
+
+.formularioflex {
+  text-align: center;
+  align-items: center;
+}
+
+.enviar {
+  width: 10%;
+  font-size: 20px;
+  margin-top: 40px;
+}
+@media (max-width: 576px) {
+  .enviar {
+    width: 20%;
+  }
+}
+
 .header {
   text-align: center;
   font-size: 30px;

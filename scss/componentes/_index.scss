@@ -653,3 +653,22 @@ div{
         }
     }
 }
+.form{
+    font-size: nth($fz, 2);
+    color: nth($clr, 2);
+}
+.formulario{
+    margin-top: 100px;
+}
+.formularioflex{
+    @include txt (center);
+    align-items: center;
+}
+.enviar{
+    width: 10%;
+    font-size: nth($fz, 5);
+    margin-top: 40px;
+    @media (max-width: 576px){
+        width: 20%;
+    }
+}
